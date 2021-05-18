@@ -1,0 +1,18 @@
+/* Everything */
+/* Display */
+html, body {height: 100%; margin: 0; padding: 0; font-family: calibri; font-size: 11px; color: white; overflow: visible; scrollbar-color: #424242 #262626; scrollbar-width: thin;}
+a {color: white; font-weight: bold; text-decoration: none;}
+a:hover {text-decoration:underline;}
+p {margin: 10px 0px;}
+#body-design {background-image: url(http://i.imgur.com/iyIkF1t.png); background-repeat: repeat;}
+header {padding: 20px;}
+/* Footer */
+#footer {background: #343434; width: 100%; font-size: 10px; text-align: center;}
+/* GPX+ */
+.container, .category-large, .section {width: 100%;}
+.category-large {margin-top: 2px; background: black; font-weight: bold; text-align: center;}
+.section {margin-bottom: 50px; padding: 10px 0; background: #404040;}
+p.box {text-align: left; margin: 0px; padding-left: 20px; font-weight: bold;}
+p.progress {margin: 0; font-weight: bold;}
+#own {opacity: 1.0;}
+#notown {opacity: 0.2;}
