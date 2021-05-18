@@ -27,6 +27,6 @@ header {padding: 20px;}
 p.box {text-align: left; margin: 0px; padding-left: 20px; font-weight: bold;}
 p.progress {margin: 0; font-weight: bold;}
 .own {opacity: 1.0;}
-.own:hover {opacity: 0.8;}
+.own:hover {opacity: 0.7;}
 .notown {opacity: 0.2;}
-.notown:hover {opacity: 0.4;}
+.notown:hover {opacity: 0.5;}
