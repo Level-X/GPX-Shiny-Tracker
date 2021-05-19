@@ -77,10 +77,13 @@ function countProgress(region) {
     }
 }
 
-function mark(elem) {
-    if (elem.classList.contains("own")) {
+function mark(elem, status = "own") {
+    if (status === "own") {
+        elem.classList = "own";
+    } else if (status === "notown") {
         elem.classList = "notown";
-    } else if (elem.classList.contains("notown")) {
+    } else {
+        console.log("Invalid status passed, setting", elem.title, "to owned");
         elem.classList = "own";
     }
     /* note that these assume that the Pokémon images only have EITHER
@@ -106,9 +109,9 @@ function markAll() {
 
         let state = localStorage.getItem("shiny ".concat(elems[i].title));
         if (state !== null) {
-            console.log('state is not "", state is', state);
+            console.log('state is not null, state is', state);
             if (state !== elems[i].title) {
-                mark(elems[i]);
+                mark(elems[i], state);
             }
         }
     }
