@@ -77,20 +77,21 @@ function countProgress(region) {
     }
 }
 
-function mark(elem, status = "own") {
+function mark(elem, region, status = "own",) {
     if (status === "own") {
         elem.classList = "own";
     } else if (status === "notown") {
         elem.classList = "notown";
     } else {
         console.log("Invalid status passed, setting", elem.title, "to owned");
+        console.log("status passed was", status);
         elem.classList = "own";
     }
     /* note that these assume that the Pokémon images only have EITHER
     the class "own" OR the class "notown", since they overwrite the
     whole class list with only one of those two.*/
     localStorage.setItem("shiny ".concat(elem.title), elem.classList);
-    countProgress(elem.parentElement.parentElement.id);
+    countProgress(region);
 }
 
 function markAll() {
@@ -104,14 +105,26 @@ function markAll() {
         }
         elems[i].onclick = mark; // to ensure this is the caller
         elems[i].addEventListener('click', function(){
-            mark(this); // 'this' is <img ...> (the clicked element) in this context
+            status = localStorage.getItem("shiny ".concat(this.title));
+            region = this.parentElement.parentElement.id;
+            if (status === "own") {
+                mark(this, region, "notown");
+                // on a click, we want to set the _opposite_ status
+            } else if (status === "notown") {
+                mark(this, region, "own");
+                // same thing
+            } else {
+                mark(this, region);
+                /* if there was no stored status, the existing status is notown,
+                so we set to own, which is the default for this function */
+            }
         });
 
         let state = localStorage.getItem("shiny ".concat(elems[i].title));
         if (state !== null) {
             console.log('state is not null, state is', state);
             if (state !== elems[i].title) {
-                mark(elems[i], state);
+                mark(elems[i], elems[i].parentElement.parentElement.id,  state);
             }
         }
     }
