@@ -8,7 +8,7 @@
 <h2 align="center">Current</h1>
 <p align="center">The current most up-to-date tracker [v2.2] will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shinies ">main branch</a>.<br>
 Here is a <a href="https://github.com/Level-X/GPX-Shinies/archive/refs/heads/main.zip">v2.2 Direct Download</a> option if you need it.<br>
-[<b><i>Starting from v2.1 Javacript function by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
+[<b><i>Starting from v2.0 Javacript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 
 <h2 align="center">Old</h1>
 <p align="center">Older versions of the tracker will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shinies/tags">tags</a> page.<br>
