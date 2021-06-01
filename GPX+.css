@@ -1,4 +1,3 @@
-/* Everything */
 /* Display */
 html, body {
     height: 100%;
@@ -25,7 +24,7 @@ header {padding: 20px;}
 .category-large {margin-top: 2px; background: black; font-weight: bold; text-align: center;}
 .section {margin-bottom: 50px; padding: 10px 0; background: #404040;}
 p.box {text-align: left; margin: 0px; padding-left: 20px; font-weight: bold;}
-p.progress {margin: 0; font-weight: bold;}
+p.progress {margin: 0; font-weight: bold; text-align: center;}
 .own {opacity: 1.0;}
 .own:hover {opacity: 0.7;}
 .notown {opacity: 0.2;}
