@@ -1,6 +1,6 @@
 # GPX+ Shinies [v2.4]
 <p align="center">Your very own GPX+ Shiny Tracker!<br>
-<img src="https://i.imgur.com/TbJqqDe.png">
+<img src="https://i.imgur.com/cBZMWLs.png">
 
   
 # Downloads
