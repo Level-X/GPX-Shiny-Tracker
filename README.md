@@ -16,6 +16,11 @@ Here is a <a href="https://github.com/Level-X/GPX-Shinies/archive/refs/tags/1.0.
 
 
 # Changelog
+<h2 align="center">v2.4</h1>
+<h4 align="center">HTML:</h1>
+<p align="center"> - <i>Added icons for Impidimp, Morgrem, Grimmsnarl, Glastrier, Spectrier, and Nihilego [Parasite].</i><br>
+- <i>Incremented version number.</i></p>
+
 <h2 align="center">v2.3</h1>
 <h4 align="center">CSS:</h1>
 <p align="center"> - <i>Fixed centering issues.</i><br>
