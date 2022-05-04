@@ -1,13 +1,13 @@
-# GPX+ Shinies [v2.4]
+# GPX+ Shinies [v2.5]
 <p align="center">Your very own GPX+ Shiny Tracker!<br>
-<img src="https://i.imgur.com/cBZMWLs.png">
+<img src="https://i.imgur.com/JVxUBMy.png">
 
   
 # Downloads
 <h3 align="center">It is always recommended that you download the current, most up-to-date version.</h1>
 <h2 align="center">Current</h1>
-<p align="center">The current most up-to-date tracker [v2.4] will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shinies ">main branch</a>.<br>
-Here is a <a href="https://github.com/Level-X/GPX-Shinies/archive/refs/heads/main.zip">v2.4 Direct Download</a> option if you need it.<br>
+<p align="center">The current most up-to-date tracker [v2.5] will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shinies ">main branch</a>.<br>
+Here is a <a href="https://github.com/Level-X/GPX-Shinies/archive/refs/heads/main.zip">v2.5 Direct Download</a> option if you need it.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 
 <h2 align="center">Old</h1>
@@ -16,6 +16,13 @@ Here is a <a href="https://github.com/Level-X/GPX-Shinies/archive/refs/tags/1.0.
 
 
 # Changelog
+<h2 align="center">v2.5</h1>
+<h4 align="center">HTML:</h1>
+<p align="center"> - <i>Added icons for Hisuian Typhlosion, Hisuian Samurott, Hisuian Decidueye, and Eiscue [Ice].</i><br>
+- <i>Added placeholder icons for the 25 other Pokémon introduced in Pokémon Legends: Arceus.</i><br>
+- <i>Fixed placement of Missingno.</i><br>
+- <i>Incremented version number.</i></p>
+
 <h2 align="center">v2.4</h1>
 <h4 align="center">HTML:</h1>
 <p align="center"> - <i>Added icons for Impidimp, Morgrem, Grimmsnarl, Glastrier, Spectrier, and Nihilego [Parasite].</i><br>
