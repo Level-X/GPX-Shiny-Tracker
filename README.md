@@ -52,7 +52,7 @@ Meloetta [Aria], Meloetta [Pirouette], Florges [Orange Flower], Florges [Blue Fl
 - <i>Added more CSS for new additions added to HTML files.</i><br>
 - <i>Added a few notes in the CSS file to better guide you.</i><br>
 - <i>Formatted the file properly.</i></p>
-<h4 align="center">CSS:</h1>
+<h4 align="center">JavaScript:</h1>
 <p align="center"> - <i>JavaScript File renamed to "Script-ClickProgress".</i><br>
 - <i>Parts of the code changed to work with new HTML ID changes.</i></p>
 
