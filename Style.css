@@ -33,6 +33,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 /* End */
 
 
@@ -46,7 +47,7 @@ header {
 main {
     margin: auto;
     /* Edit this if you want to change the overall width of each Region section. (The box that holds the Pokémon Icons) */
-    width: 95%;
+    width: 75%;
 }
 
 footer {
@@ -74,6 +75,7 @@ footer img.right {
     height: 16px;
     margin-left: 30px;
 }
+
 /* End */
 
 
@@ -99,6 +101,7 @@ ul.quickjump li::after {
 ul.quickjump li:last-child::after {
     display: none;
 }
+
 /* End */
 
 
@@ -121,6 +124,7 @@ section.content {
     border-top: 0px;
     text-align: center;
 }
+
 /* End */
 
 
@@ -132,6 +136,7 @@ p.box {
     font-weight: bold;
     text-align: left;
 }
+
 /* End */
 
 
@@ -148,6 +153,7 @@ img.notown {
 img.notown:hover {
     opacity: 1.0;
 }
+
 /* End */
 
 
@@ -165,7 +171,7 @@ div.pkmn {
 
 div.pkmn span.info {
     visibility: hidden;
-    width: 100px;
+    width: 110px;
     padding: 4px 0;
     background-color: rgb(31, 31, 31);
     border: 1px solid black;
@@ -193,6 +199,7 @@ span.info p.form {
     font-style: italic;
     font-weight: 100;
 }
+
 /* End */
 
 
@@ -232,6 +239,30 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
     background-color: #2A9200;
 }
+
+/* End */
+
+
+
+/* Icons for genders. - No need to edit. */
+div.male,
+div.female {
+    max-width: 7px;
+    min-height: 10px;
+    margin-bottom: 4px;
+    padding: 0% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.male {
+    background-image: url(https://i.imgur.com/fWGLGPg.png);
+}
+
+div.female {
+    background-image: url(https://i.imgur.com/mkE5Iy2.png);
+}
+
 /* End */
 
 
@@ -339,6 +370,7 @@ div.fairy {
 div.bird {
     background-image: url(https://i.imgur.com/MetWrKP.png);
 }
+
 /* End */
 
 
@@ -351,8 +383,8 @@ a.download {
 
 ul.quickjumpGS {
     margin: auto;
-    margin-top:  40px;
-    padding:  0px;
+    margin-top: 40px;
+    padding: 0px;
     list-style: none;
     text-align: center;
 }
@@ -375,26 +407,42 @@ p.GS {
     font-weight: bolder;
 }
 
-p.GS2 {
+ul.GS,
+ul.GS2 {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+ul.GS li {
+    padding: 3px 0px;
+    font-weight: bolder;
+    margin-bottom: 1px;
+}
+
+ul.GS li::before,
+ul.GS2 li::before {
+    content: "»";
+    padding-right: 5px;
+}
+
+ul.GS p {
     margin: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     font-style: italic;
 }
 
-li.GS {
+ul.GS2 li {
     padding: 3px 0px;
-    font-weight: bolder;
+    font-weight: lighter;
+    margin-bottom: 7px;
 }
 
 img.GS {
-    padding-top: 10px;
-}
-
-img.GS2 {
     border: 1px solid black;
 }
 
-img.GS3 {
+img.GS2 {
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -445,4 +493,5 @@ summary {
     text-align: center;
     color: white;
 }
+
 /* End */
