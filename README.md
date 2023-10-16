@@ -1,19 +1,27 @@
-# GPX+ Shiny Tracker [v3.1]
-<p align="center">Your very own GPX+ Shiny Tracker!<br>
-<img src="https://i.imgur.com/bTlUf7U.png">
+# GPX+ Shiny Tracker [v3.1.1]
+<p align="center"><img src="https://i.imgur.com/N2TNiFw.png"></p>
 
 
   
 # Downloads
-<h3 align="center">It is always recommended that you download the current, most up-to-date version.</h1>
-<h2 align="center">Current</h1>
-<p align="center">The current most up-to-date tracker [v3.1] will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a>.<br>
-Here is a <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">v3.1 Direct Download</a> option if you need it.<br>
+<p align="center">The latest version of the tracker (currently v3.1.1) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
+<p align="center"><b>It is always recommended that you download the current, most up-to-date version.</b></p>
 
 
 
 # Changelog
+<h2 align="center">v3.1.1</h1>
+<h4 align="center">HTML:</h1>
+- <i>Getting Started: Added v3.1.1 changes.</i><br>
+- <i>Banner updated to v3.1.1.</i><br>
+- <i>Added gender information for Santa Hariyama and Mrs. Hariyama on the base Shiny Tracker.</i><br>
+- <i>Added updated icons for Castform [Sunny], Castform [Rainy], and Castform [Snowy].</i><br>
+- <i>Added icons for Kubfu, Urshifu [Single Strike], Urshifu [Rapid Strike], Basculin [White-Striped], and Basculegion (Male/Female).</i><br>
+- <i>Incremented version number.</i></p>
+
+
+
 <h2 align="center">v3.1</h1>
 <h4 align="center">HTML:</h1>
 - <i>Getting Started: Fixed many display problems.</i><br>
