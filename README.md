@@ -11,8 +11,8 @@
 
 
 # Changelog
-<h2 align="center">v3.1.1</h1>
-<h4 align="center">HTML:</h1>
+<h1 align="center">Current - v3.1.1</h1>
+<h4>HTML:</h4>
 - <i>Getting Started: Added v3.1.1 changes.</i><br>
 - <i>Banner updated to v3.1.1.</i><br>
 - <i>Added gender information for Santa Hariyama and Mrs. Hariyama on the base Shiny Tracker.</i><br>
@@ -22,8 +22,10 @@
 
 
 
-<h2 align="center">v3.1</h1>
-<h4 align="center">HTML:</h1>
+<br><br><br>
+<h1 align="center">Old Changes</h1>
+<h2 align="center">v3.1</h2>
+<h4>HTML:</h4>
 - <i>Getting Started: Fixed many display problems.</i><br>
 - <i>Getting Started: Added v3.1 changes.</i><br>
 - <i>Tracker Ultimate: The hover information box has been updated to include Gender information for select Pokémon.</i><br>
@@ -37,12 +39,13 @@
 - <i>Changed display to show two rows of Pokémon per box instead of one row.</i><br>
 - <i>Added icons for Galarian Meowth, Galarian Slowpoke, Galarian Slowbro, Galarian Farfetch'd, Galarian Slowking, Solgaleo [Radiant Sun], Lunala [Full Moon], Chewtle, Drednaw, Arrokuda, Barraskewda, Perrserker, Sirfetch'd, Indeedee (Male/Female), Dreepy, Drakloak, Dragapult, Eternatus, Sprigatito, Floragato, and Meowscarada.</i><br>
 - <i>Incremented version number.</i><br>
-<h4 align="center">CSS:</h1>
+<h4>CSS:</h4>
 - <i>Added and removed code to fix problems on the Getting Started page.</i></p>
 
 
-<h2 align="center">v3.0</h1>
-<h4 align="center">HTML:</h1>
+
+<h2 align="center">v3.0</h2>
+<h4>HTML:</h4>
 - <i>HTML file named from "GPX+ Shinies" to "GPX+ Shiny Tracker".</i><br>
 - <i>The Favicon has been updated.</i><br>
 - <i>Banner updated and now includes version number.</i><br>
@@ -74,70 +77,78 @@ Meloetta [Aria], Meloetta [Pirouette], Florges [Orange Flower], Florges [Blue Fl
 - <i>Added a few notes in the HTML files to better guide you.</i><br>
 - <i>Created a Getting Started HTML file that details all information about the project.</i><br>
 - <i>Incremented version number.</i></p>
-<h4 align="center">CSS:</h1>
+<h4>CSS:</h4>
 - <i>CSS File renamed to "Style".</i><br>
 - <i>Added more CSS for new additions added to HTML files.</i><br>
 - <i>Added a few notes in the CSS file to better guide you.</i><br>
 - <i>Formatted the file properly.</i></p>
-<h4 align="center">JavaScript:</h1>
+<h4>JavaScript:</h4>
 - <i>JavaScript File renamed to "Script-ClickProgress".</i><br>
 - <i>Parts of the code changed to work with new HTML ID changes.</i></p>
 
 
-<h2 align="center">v2.5</h1>
-<h4 align="center">HTML:</h1>
+
+<h2 align="center">v2.5</h2>
+<h4>HTML:</h4>
 - <i>Added icons for Hisuian Typhlosion, Hisuian Samurott, Hisuian Decidueye, and Eiscue [Ice].</i><br>
 - <i>Added placeholder icons for the 25 other Pokémon introduced in Pokémon Legends: Arceus.</i><br>
 - <i>Fixed placement of Missingno.</i><br>
 - <i>Incremented version number.</i></p>
 
 
-<h2 align="center">v2.4</h1>
-<h4 align="center">HTML:</h1>
+
+<h2 align="center">v2.4</h2>
+<h4>HTML:</h4>
 - <i>Added icons for Impidimp, Morgrem, Grimmsnarl, Glastrier, Spectrier, and Nihilego [Parasite].</i><br>
 - <i>Incremented version number.</i></p>
 
 
-<h2 align="center">v2.3</h1>
-<h4 align="center">HTML:</h1>
+
+<h2 align="center">v2.3</h2>
+<h4>HTML:</h4>
 - <i>Changed various positions of HTML.</i><br>
 - <i>Added icons for Silicobra, Sandaconda, Rolycoly, Carkol, Coalossal, Cufant, Copperajah, Galarian Yamask, Runerigus, Sizzlipede, and Centiskorch.</i><br>
 - <i>Fixed typo for Eiscue [Noice] form.</i><br>
 - <i>Fixed positioning of Porygon-T and Cherrim [Frost]</i><br>
 - <i>Incremented version number.</i></p>
-<h4 align="center">CSS:</h1>
+<h4>CSS:</h4>
 - <i>Fixed centering issues.</i><br>
 - <i>Added progress bar CSS for both Chrome and Firefox.</i></p>
 
 
-<h2 align="center">v2.2</h1>
+
+<h2 align="center">v2.2</h2>
 <p align="center"><i>Alternative tracker that includes all gender differences introduced thanks to Rookie Roo!<br>
 (If you wish to use this version simply drag the file out of the "Alternative Trackers" into the main folder with all the other files, otherwise the CSS won't load.)</i></p>
-<h4 align="center">HTML:</h1>
+<h4>HTML:</h4>
 - <i>Changed various positions of HTML.</i><br>
 - <i>Added icons for Nickit, Thievul, Clobbopus, and Grapploct.</i><br>
 - <i>Incremented version number.</i></p>
-<h4 align="center">CSS:</h1>
+<h4>CSS:</h4>
 - <i>Minor adjustment to fix a centering issue that could occur within the progress bar.</i></p>
 
 
-<h2 align="center">v2.1</h1>
-<h4 align="center">HTML:</h1>
+
+<h2 align="center">v2.1</h2>
+<h4>HTML:</h4>
 - <i>Added metadata.</i><br>
 - <i>Incremented version number.</i></p>
-<h4 align="center">Javascript:</h1>
+<h4>JavaScript:</h4>
 - <i>Fixed incorrect retrieval of "notown" state.</i></p>
+
+
   
-<h2 align="center">v2.0</h1>
-<h4 align="center">HTML:</h1>
+<h2 align="center">v2.0</h2>
+<h4>HTML:</h4>
 - <i>Added Javascript functionality.</i><br>
 - <i>Added "Back to top" link.</i><br>
 - <i>Changed ownership from IDs to Class.</i><br>
 - <i>Updated Footer to include version number and source.</i></p>
-<h4 align="center">CSS:</h1>
+<h4>CSS:</h4>
 - <i>Changed formatting.</i><br>
 - <i>Tweaked opacity.</i></p>
 
 
-<h2 align="center">v1.0</h1>
+
+<h2 align="center">v1.0</h2>
 - <i>Released.</i>
