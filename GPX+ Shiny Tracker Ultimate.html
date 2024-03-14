@@ -16,27 +16,39 @@
 
 <body>
     <header>
-        <img src="https://i.imgur.com/kP8tv0K.png" alt="Tracker Version Banner" id="Top">
+        <img src="https://i.imgur.com/YvXyPgB.png" alt="Tracker Version Banner">
+        <nav class="menu">
+            <div class="head">Quick Jump & Collection Progress</div>
+            <ul>
+                <li><a href="#Gen1">Generation I</a></li>
+                <progress value="0" max="213" title="0/213"></progress>
+                <li><a href="#Gen2">Generation II</a></li>
+                <progress value="0" max="158" title="0/158"></progress>
+                <li><a href="#Gen3">Generation III</a></li>
+                <progress value="0" max="183" title="0/183"></progress>
+                <li><a href="#Gen4">Generation IV</a></li>
+                <progress value="0" max="174" title="0/174"></progress>
+                <li><a href="#Gen5">Generation V</a></li>
+                <progress value="0" max="184" title="0/184"></progress>
+                <li><a href="#Gen6">Generation VI</a></li>
+                <progress value="0" max="120" title="0/120"></progress>
+                <li><a href="#Gen7">Generation VII</a></li>
+                <progress value="0" max="125" title="0/125"></progress>
+                <li><a href="#Gen8">Generation VIII</a></li>
+                <progress value="0" max="85" title="0/85"></progress>
+                <li><a href="#Gen9">Generation IX</a></li>
+                <progress value="0" max="6" title="0/6"></progress>
+                <li><a href="#Novelty">The Novelties</a></li>
+                <progress value="0" max="237" title="0/237"></progress>
+            </ul>
+        </nav>
     </header>
     <main>
-        <!-- This is the start of the Kanto section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Kanto Region (Generation I)</div>
-        <section class="content" id="Gen1">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+        <div class="head">Global PokédeX Plus: Ultimate Living Dex</div>
+        <div class="body">
+            <div class="subtitle">Box 1</div>
+            <!-- This is the start of Generation I. -->
+            <div class="pkmn" id="Gen1">
                 <img class="notown" src="https://i.imgur.com/ArVRON4.png" alt="Bulbasaur">
                 <span class="info">
                     <p>#001 | Bulbasaur</p>
@@ -75,15 +87,6 @@
                 <span class="info">
                     <p>#003 | Venusaur</p>
                     <p class="form">Mega</p>
-                    <div class="grass"></div>
-                    <div class="poison"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Venusaur [Gigantamax]">
-                <span class="info">
-                    <p>#003 | Venusaur</p>
-                    <p class="form">Gigantamax</p>
                     <div class="grass"></div>
                     <div class="poison"></div>
                 </span>
@@ -129,16 +132,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Charizard [Gigantamax]">
-                <span class="info">
-                    <p>#006 | Charizard</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="fire"></div>
-                    <div class="flying"></div>
-                </span>
-            </div>
-            <br>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/vrqBbQb.png" alt="Squirtle">
                 <span class="info">
                     <p>#007 | Squirtle</p>
@@ -152,6 +145,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/3b1VpNT.png" alt="Blastoise">
                 <span class="info">
@@ -164,14 +158,6 @@
                 <span class="info">
                     <p>#009 | Blastoise</p>
                     <p class="form">Mega</p>
-                    <div class="water"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Blastoise [Gigantamax]">
-                <span class="info">
-                    <p>#009 | Blastoise</p>
-                    <p class="form">Gigantamax</p>
                     <div class="water"></div>
                 </span>
             </div>
@@ -208,15 +194,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Butterfree [Gigantamax]">
-                <span class="info">
-                    <p>#012 | Butterfree</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="bug"></div>
-                    <div class="flying"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/lnX4oht.png" alt="Weedle">
                 <span class="info">
                     <p>#013 | Weedle</p>
@@ -232,7 +209,6 @@
                     <div class="poison"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nAPdiOk.png" alt="Beedrill">
                 <span class="info">
@@ -266,6 +242,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 2</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/gb4epvT.png" alt="Pidgeot">
                 <span class="info">
@@ -333,7 +310,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/CALbFJW.png" alt="Spearow">
                 <span class="info">
@@ -364,6 +340,7 @@
                     <div class="poison"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/2cSy45U.png" alt="Pikachu [♂]">
                 <span class="info">
@@ -377,14 +354,6 @@
                 <span class="info">
                     <p>#025 | Pikachu</p>
                     <div class="female"></div>
-                    <div class="electric"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Pikachu [Gigantamax]">
-                <span class="info">
-                    <p>#025 | Pikachu</p>
-                    <p class="form">Gigantamax</p>
                     <div class="electric"></div>
                 </span>
             </div>
@@ -429,7 +398,6 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/fKhk9yL.png" alt="Sandslash">
                 <span class="info">
@@ -468,6 +436,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 3</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/WPZzEkI.png" alt="Nidoran ♂">
                 <span class="info">
@@ -519,7 +488,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/chbOAhh.png" alt="Ninetales">
                 <span class="info">
@@ -561,6 +529,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Dbj1dBT.png" alt="Zubat [♀]">
                 <span class="info">
@@ -623,7 +592,6 @@
                     <div class="poison"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/eiJNaun.png" alt="Vileplume [♀]">
                 <span class="info">
@@ -665,6 +633,7 @@
                     <div class="poison"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 4</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/v1lFJVB.png" alt="Diglett">
                 <span class="info">
@@ -705,14 +674,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Meowth [Gigantamax]">
-                <span class="info">
-                    <p>#052 | Meowth</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="normal"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/FjUWDgA.png" alt="Meowth [Alolan]">
                 <span class="info">
                     <p>#052 | Meowth</p>
@@ -720,7 +681,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/pL4wb0M.png" alt="Meowth [Galarian]">
                 <span class="info">
@@ -765,6 +725,7 @@
                     <div class="fighting"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/07HfKnM.png" alt="Primeape">
                 <span class="info">
@@ -811,7 +772,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/CO9EeMF.png" alt="Poliwhirl">
                 <span class="info">
@@ -858,6 +818,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 5</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/op4n1IH.png" alt="Alakazam [♀]">
                 <span class="info">
@@ -895,15 +856,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Machamp [Gigantamax]">
-                <span class="info">
-                    <p>#068 | Machamp</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="fighting"></div>
-                </span>
-            </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/5xKsHKk.png" alt="Bellsprout">
                 <span class="info">
@@ -961,6 +913,7 @@
                     <div class="electric"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/OMyzVXR.png" alt="Graveler">
                 <span class="info">
@@ -1002,7 +955,6 @@
                     <div class="fire"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/r7FksiB.png" alt="Ponyta [Galarian]">
                 <span class="info">
@@ -1060,6 +1012,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 6</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/zzTFwnH.png" alt="Slowbro [Galarian]">
                 <span class="info">
@@ -1101,7 +1054,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/GFFDs5a.png" alt="Doduo [♂]">
                 <span class="info">
@@ -1160,6 +1112,7 @@
                     <div class="poison"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/9wbCkWs.png" alt="Grimer [Alolan]">
                 <span class="info">
@@ -1200,7 +1153,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Zd7N1Bx.png" alt="Gastly">
                 <span class="info">
@@ -1235,15 +1187,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Gengar [Gigantamax]">
-                <span class="info">
-                    <p>#094 | Gengar</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="ghost"></div>
-                    <div class="poison"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/IrL6APG.png" alt="Onix">
                 <span class="info">
                     <p>#095 | Onix</p>
@@ -1266,6 +1209,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 7</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/fYJUgjl.png" alt="Hypno [♀]">
                 <span class="info">
@@ -1288,15 +1232,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Kingler [Gigantamax]">
-                <span class="info">
-                    <p>#099 | Kingler</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="water"></div>
-                </span>
-            </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QlsYv2L.png" alt="Voltorb">
                 <span class="info">
@@ -1368,6 +1303,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/VGGNk3v.png" alt="Marowak [Alolan]">
                 <span class="info">
@@ -1391,7 +1327,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <p class="box">Box 8</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/651JHyQ.png" alt="Lickitung">
                 <span class="info">
@@ -1465,6 +1400,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 8</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4BGUMhB.png" alt="Tangela">
                 <span class="info">
@@ -1487,7 +1423,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/t1SVTUV.png" alt="Horsea">
                 <span class="info">
@@ -1557,6 +1492,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/igJ1SDF.png" alt="Mr. Mime [Galarian]">
                 <span class="info">
@@ -1584,7 +1520,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <p class="box">Box 9</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/SY3qP6v.png" alt="Jynx">
                 <span class="info">
@@ -1634,7 +1569,7 @@
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Tauros [Paldean Combat Breed]">
                 <span class="info">
                     <p>#128 | Tauros</p>
-                    <p class="form">Paldean Combat Breed</p>
+                    <p class="form">Paldean<br>Combat Breed</p>
                     <div class="fighting"></div>
                 </span>
             </div>
@@ -1642,7 +1577,7 @@
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Tauros [Paldean Blaze Breed]">
                 <span class="info">
                     <p>#128 | Tauros</p>
-                    <p class="form">Paldean Blaze Breed</p>
+                    <p class="form">Paldean<br>Blaze Breed</p>
                     <div class="fighting"></div>
                     <div class="fire"></div>
                 </span>
@@ -1651,11 +1586,12 @@
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Tauros [Paldean Aqua Breed]">
                 <span class="info">
                     <p>#128 | Tauros</p>
-                    <p class="form">Paldean Aqua Breed</p>
+                    <p class="form">Paldean<br>Aqua Breed</p>
                     <div class="fighting"></div>
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 9</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/J2nUQ2c.png" alt="Magikarp [♂]">
                 <span class="info">
@@ -1681,7 +1617,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/P2gEU4j.png" alt="Gyarados [♀]">
                 <span class="info">
@@ -1709,15 +1644,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Lapras [Gigantamax]">
-                <span class="info">
-                    <p>#131 | Lapras</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="water"></div>
-                    <div class="ice"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ZrY78py.png" alt="Ditto">
                 <span class="info">
                     <p>#132 | Ditto</p>
@@ -1728,14 +1654,6 @@
                 <img class="notown" src="https://i.imgur.com/PoJzxlC.png" alt="Eevee">
                 <span class="info">
                     <p>#133 | Eevee</p>
-                    <div class="normal"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Eevee [Gigantamax]">
-                <span class="info">
-                    <p>#133 | Eevee</p>
-                    <p class="form">Gigantamax</p>
                     <div class="normal"></div>
                 </span>
             </div>
@@ -1767,6 +1685,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/oXUIc8H.png" alt="Omanyte">
                 <span class="info">
@@ -1775,7 +1694,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <p class="box">Box 10</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/SozxiLr.png" alt="Omastar">
                 <span class="info">
@@ -1825,14 +1743,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Snorlax [Gigantamax]">
-                <span class="info">
-                    <p>#143 | Snorlax</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="normal"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Glxjv0Z.png" alt="Articuno">
                 <span class="info">
                     <p>#144 | Articuno</p>
@@ -1874,7 +1784,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
+            <div class="subtitle">Box 10</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Moltres [Galarian]">
                 <span class="info">
@@ -1937,28 +1847,9 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="236" title="0/236"></progress>
-        </section>
-        <!-- This is the end of the Kanto section. -->
-        <!-- This is the start of the Johto section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Johto Region (Generation II)</div>
-        <section class="content" id="Gen2">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation I. -->
+            <!-- This is the start of Generation II. -->
+            <div class="pkmn" id="Gen2">
                 <img class="notown" src="https://i.imgur.com/qReIv2E.png" alt="Chikorita">
                 <span class="info">
                     <p>#152 | Chikorita</p>
@@ -1988,6 +1879,7 @@
                     <div class="grass"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nybvTXw.png" alt="Cyndaquil">
                 <span class="info">
@@ -2046,7 +1938,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/zJG9bOV.png" alt="Furret">
                 <span class="info">
@@ -2079,6 +1970,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 11</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/vJEMbAm.png" alt="Ledyba [♀]">
                 <span class="info">
@@ -2146,7 +2038,6 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/1lTTLAD.png" alt="Pichu">
                 <span class="info">
@@ -2176,6 +2067,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/zsPmwB1.png" alt="Togetic">
                 <span class="info">
@@ -2240,7 +2132,6 @@
                     <div class="dragon"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/RDDtAV1.png" alt="Bellossom">
                 <span class="info">
@@ -2272,6 +2163,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 12</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/rySYaxh.png" alt="Sudowoodo [♀]">
                 <span class="info">
@@ -2336,7 +2228,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Ydj7k8s.png" alt="Sunkern">
                 <span class="info">
@@ -2368,6 +2259,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/dejJGla.png" alt="Wooper [♀]">
                 <span class="info">
@@ -2436,7 +2328,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tQr8yjw.png" alt="Slowking">
                 <span class="info">
@@ -2469,6 +2360,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 13</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/5k7zvxI.png" alt="Unown [B]">
                 <span class="info">
@@ -2533,7 +2425,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/XPWVvBV.png" alt="Unown [J]">
                 <span class="info">
@@ -2566,6 +2457,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/M3OFDDJ.png" alt="Unown [N]">
                 <span class="info">
@@ -2630,7 +2522,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ETPgjzs.png" alt="Unown [V]">
                 <span class="info">
@@ -2663,6 +2554,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 14</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QVM6iKG.png" alt="Unown [Z]">
                 <span class="info">
@@ -2728,7 +2620,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/amLCZYW.png" alt="Forretress">
                 <span class="info">
@@ -2762,6 +2653,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/IjRHJMk.png" alt="Steelix [♂]">
                 <span class="info">
@@ -2829,7 +2721,6 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/gAlVMMy.png" alt="Scizor [♀]">
                 <span class="info">
@@ -2865,6 +2756,7 @@
                     <div class="fighting"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 15</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ig4aXOq.png" alt="Heracross [♀]">
                 <span class="info">
@@ -2936,7 +2828,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/0wRGxnv.png" alt="Ursaring [♀]">
                 <span class="info">
@@ -2968,6 +2859,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/8Om2r2f.png" alt="Piloswine [♂]">
                 <span class="info">
@@ -3033,7 +2925,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tSSVilp.png" alt="Mantine">
                 <span class="info">
@@ -3067,6 +2958,7 @@
                     <div class="fire"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 16</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/JwKqTXY.png" alt="Houndoom [♀]">
                 <span class="info">
@@ -3130,7 +3022,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/cqmhQSX.png" alt="Smeargle">
                 <span class="info">
@@ -3160,6 +3051,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/VgbrdDH.png" alt="Elekid">
                 <span class="info">
@@ -3217,7 +3109,6 @@
                     <div class="ground"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/FJZp5sj.png" alt="Pupitar">
                 <span class="info">
@@ -3251,6 +3142,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 17</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/x1XXfw7.png" alt="Ho-Oh">
                 <span class="info">
@@ -3267,28 +3159,9 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="162" title="0/162"></progress>
-        </section>
-        <!-- This is the end of the Johto section. -->
-        <!-- This is the start of the Hoenn section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Hoenn Region (Generation III)</div>
-        <section class="content" id="Gen3">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation II. -->
+            <!-- This is the start of Generation III. -->
+            <div class="pkmn" id="Gen3">
                 <img class="notown" src="https://i.imgur.com/bOVjDTS.png" alt="Treecko">
                 <span class="info">
                     <p>#252 | Treecko</p>
@@ -3370,6 +3243,7 @@
                     <div class="fighting"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/dHvhMGq.png" alt="Blaziken [Mega]">
                 <span class="info">
@@ -3386,7 +3260,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nRPtI7a.png" alt="Marshtomp">
                 <span class="info">
@@ -3465,6 +3338,7 @@
                     <div class="bug"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 18</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/CXWDKrK.png" alt="Silcoon">
                 <span class="info">
@@ -3481,7 +3355,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/BZWXN8P.png" alt="Beautifly [♀]">
                 <span class="info">
@@ -3566,6 +3439,7 @@
                     <div class="dark"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/FZ4Vfos.png" alt="Nuzleaf [♀]">
                 <span class="info">
@@ -3584,7 +3458,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Q1DMcK5.png" alt="Shiftry [♀]">
                 <span class="info">
@@ -3667,6 +3540,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 19</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/yw4je2b.png" alt="Masquerain">
                 <span class="info">
@@ -3682,7 +3556,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/qoxtRGO.png" alt="Breloom">
                 <span class="info">
@@ -3757,6 +3630,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/vntcbIf.png" alt="Makuhita">
                 <span class="info">
@@ -3771,7 +3645,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/jKneOIU.png" alt="Azurill">
                 <span class="info">
@@ -3851,6 +3724,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 20</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4Ro47Va.png" alt="Aggron">
                 <span class="info">
@@ -3867,7 +3741,6 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/p97LQja.png" alt="Meditite [♂]">
                 <span class="info">
@@ -3949,6 +3822,7 @@
                     <div class="electric"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/eL7JprM.png" alt="Volbeat">
                 <span class="info">
@@ -3963,7 +3837,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nRPpsO2.png" alt="Roselia [♂]">
                 <span class="info">
@@ -4046,6 +3919,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 21</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/glB1kXH.png" alt="Wailord">
                 <span class="info">
@@ -4062,7 +3936,6 @@
                     <div class="ground"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/PBEAw5i.png" alt="Numel [♀]">
                 <span class="info">
@@ -4142,6 +4015,7 @@
                     <div class="dragon"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/GcK5ffi.png" alt="Flygon">
                 <span class="info">
@@ -4157,7 +4031,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/5n7PbzQ.png" alt="Cacturne [♂]">
                 <span class="info">
@@ -4239,6 +4112,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 22</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/SgGpttp.png" alt="Whiscash">
                 <span class="info">
@@ -4254,7 +4128,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ae8enVH.png" alt="Crawdaunt">
                 <span class="info">
@@ -4334,6 +4207,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/9S1LgC8.png" alt="Castform [Normal]">
                 <span class="info">
@@ -4350,7 +4224,6 @@
                     <div class="fire"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/HyLXwhx.png" alt="Castform [Rainy]">
                 <span class="info">
@@ -4425,6 +4298,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 23</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/VXjwskH.png" alt="Absol">
                 <span class="info">
@@ -4440,7 +4314,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/bTZzwvv.png" alt="Wynaut">
                 <span class="info">
@@ -4515,6 +4388,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/9owREKb.png" alt="Relicanth [♂]">
                 <span class="info">
@@ -4533,7 +4407,6 @@
                     <div class="rock"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/TwCxrtd.png" alt="Luvdisc">
                 <span class="info">
@@ -4612,6 +4485,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 24</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/kvIyf9o.png" alt="Regice">
                 <span class="info">
@@ -4626,7 +4500,6 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <p class="box">Box 8</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4E49rrU.png" alt="Latias">
                 <span class="info">
@@ -4709,6 +4582,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/U5HqGHP.png" alt="Jirachi">
                 <span class="info">
@@ -4725,7 +4599,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4DA16eJ.png" alt="Deoxys [Attack]">
                 <span class="info">
@@ -4750,28 +4623,9 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="183" title="0/183"></progress>
-        </section>
-        <!-- This is the end of the Hoenn section. -->
-        <!-- This is the start of the Sinnoh section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Sinnoh Region (Generation IV)</div>
-        <section class="content" id="Gen4">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation III. -->
+            <!-- This is the start of Generation IV. -->
+            <div class="pkmn" id="Gen4">
                 <img class="notown" src="https://i.imgur.com/OT3DfyZ.png" alt="Turtwig">
                 <span class="info">
                     <p>#387 | Turtwig</p>
@@ -4823,6 +4677,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 25</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/sGUrG3x.png" alt="Prinplup">
                 <span class="info">
@@ -4865,7 +4720,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/xnSP6ef.png" alt="Staravia [♀]">
                 <span class="info">
@@ -4927,6 +4781,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/7eYmsAQ.png" alt="Kricketot [♂]">
                 <span class="info">
@@ -4967,7 +4822,6 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/rS2KpvD.png" alt="Shinx [♀]">
                 <span class="info">
@@ -5025,6 +4879,7 @@
                     <div class="poison"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 26</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/8Gwp5jD.png" alt="Roserade [♀]">
                 <span class="info">
@@ -5064,7 +4919,6 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/FuNixsK.png" alt="Burmy [Plant Cloak]">
                 <span class="info">
@@ -5124,6 +4978,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/k5UgvLy.png" alt="Combee [♂]">
                 <span class="info">
@@ -5166,7 +5021,6 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/LdK20y2.png" alt="Buizel [♂]">
                 <span class="info">
@@ -5222,6 +5076,7 @@
                     <div class="grass"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 27</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/DNPlxtQ.png" alt="Shellos [West Sea]">
                 <span class="info">
@@ -5264,7 +5119,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/dTZmJQI.png" alt="Ambipom [♀]">
                 <span class="info">
@@ -5319,6 +5173,7 @@
                     <div class="ghost"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/LOYmjNv.png" alt="Honchkrow">
                 <span class="info">
@@ -5356,7 +5211,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/NkM9lQO.png" alt="Skuntank">
                 <span class="info">
@@ -5411,6 +5265,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 28</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/PcAyzLZ.png" alt="Spiritomb">
                 <span class="info">
@@ -5455,7 +5310,6 @@
                     <div class="ground"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/6loLvIC.png" alt="Garchomp [♂]">
                 <span class="info">
@@ -5514,6 +5368,7 @@
                     <div class="steel"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/RbdH2gC.png" alt="Hippopotas [♂]">
                 <span class="info">
@@ -5554,7 +5409,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/NylvjIz.png" alt="Drapion">
                 <span class="info">
@@ -5614,6 +5468,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 29</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/0znGVid.png" alt="Finneon [♀]">
                 <span class="info">
@@ -5655,7 +5510,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/qqJAT9V.png" alt="Snover [♀]">
                 <span class="info">
@@ -5718,6 +5572,7 @@
                     <div class="steel"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/OYyUDEb.png" alt="Lickilicky">
                 <span class="info">
@@ -5759,7 +5614,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/s4pZbCK.png" alt="Electivire">
                 <span class="info">
@@ -5812,6 +5666,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 30</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/05JK7hO.png" alt="Mamoswine [♂]">
                 <span class="info">
@@ -5854,7 +5709,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4zVseoG.png" alt="Probopass">
                 <span class="info">
@@ -5913,6 +5767,7 @@
                     <div class="ice"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tJuIi1u.png" alt="Rotom [Fan]">
                 <span class="info">
@@ -5952,7 +5807,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/CeLrrvI.png" alt="Dialga">
                 <span class="info">
@@ -6011,6 +5865,7 @@
                     <div class="dragon"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 31</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QSIYPwq.png" alt="Giratina [Origin]">
                 <span class="info">
@@ -6048,7 +5903,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/NHhD0Om.png" alt="Shaymin [Land]">
                 <span class="info">
@@ -6105,6 +5959,7 @@
                     <div class="fighting"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/KU3g3Vy.png" alt="Arceus [Fire]">
                 <span class="info">
@@ -6145,7 +6000,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <p class="box">Box 8</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/KU3g3Vy.png" alt="Arceus [Psychic]">
                 <span class="info">
@@ -6202,6 +6056,7 @@
                     <div class="poison"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 32</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/KU3g3Vy.png" alt="Arceus [Electric]">
                 <span class="info">
@@ -6210,28 +6065,9 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="176" title="0/176"></progress>
-        </section>
-        <!-- This is the end of the Sinnoh section. -->
-        <!-- This is the start of the Unova section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Unova Region (Generation V)</div>
-        <section class="content" id="Gen5">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation IV. -->
+            <!-- This is the start of Generation V. -->
+            <div class="pkmn" id="Gen5">
                 <img class="notown" src="https://i.imgur.com/cy7bpEQ.png" alt="Victini">
                 <span class="info">
                     <p>#494 | Victini</p>
@@ -6313,6 +6149,7 @@
                     <div class="dark"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ERS6DP4.png" alt="Patrat">
                 <span class="info">
@@ -6320,7 +6157,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/zYcu2Kh.png" alt="Watchog">
                 <span class="info">
@@ -6398,6 +6234,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 33</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/rfyaAyv.png" alt="Simipour">
                 <span class="info">
@@ -6405,7 +6242,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/wQtvnXt.png" alt="Munna">
                 <span class="info">
@@ -6489,6 +6325,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Xz5r27y.png" alt="Woobat">
                 <span class="info">
@@ -6497,7 +6334,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/KSfoH5V.png" alt="Swoobat">
                 <span class="info">
@@ -6581,6 +6417,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 34</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/iEbfcaG.png" alt="Throh">
                 <span class="info">
@@ -6588,7 +6425,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/TS2iJIi.png" alt="Sawk">
                 <span class="info">
@@ -6674,6 +6510,7 @@
                     <div class="grass"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Lilligant [Hisuian]">
                 <span class="info">
@@ -6683,7 +6520,6 @@
                     <div class="fighting"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/jxjPXss.png" alt="Basculin [Red-Striped]">
                 <span class="info">
@@ -6759,7 +6595,7 @@
                 <img class="notown" src="https://i.imgur.com/eB0OEsV.png" alt="Darmanitan [Galarian Standard Mode]">
                 <span class="info">
                     <p>#555 | Darmanitan</p>
-                    <p class="form">Galarian <br> Standard Mode</p>
+                    <p class="form">Galarian<br>Standard Mode</p>
                     <div class="ice"></div>
                 </span>
             </div>
@@ -6772,16 +6608,16 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 35</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/v6N7oOZ.png" alt="Darmanitan [Galarian Zen Mode]">
                 <span class="info">
                     <p>#555 | Darmanitan</p>
-                    <p class="form">Galarian <br> Zen Mode</p>
+                    <p class="form">Galarian<br>Zen Mode</p>
                     <div class="ice"></div>
                     <div class="fire"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/dHDLA7F.png" alt="Maractus">
                 <span class="info">
@@ -6868,6 +6704,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/3S3uRMm.png" alt="Archen">
                 <span class="info">
@@ -6876,7 +6713,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/s3ELD9k.png" alt="Archeops">
                 <span class="info">
@@ -6900,14 +6736,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Garbodor [Gigantamax]">
-                <span class="info">
-                    <p>#569 | Garbodor</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="poison"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/P0kCjyk.png" alt="Zorua">
                 <span class="info">
                     <p>#570 | Zorua</p>
@@ -6915,7 +6743,7 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Zorua [Hisuian]">
+                <img class="notown" src="https://i.imgur.com/dpViGqu.png" alt="Zorua [Hisuian]">
                 <span class="info">
                     <p>#570 | Zorua</p>
                     <p class="form">Hisuian</p>
@@ -6931,7 +6759,7 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Zoroark [Hisuian]">
+                <img class="notown" src="https://i.imgur.com/cpA9RjU.png" alt="Zoroark [Hisuian]">
                 <span class="info">
                     <p>#571 | Zoroark</p>
                     <p class="form">Hisuian</p>
@@ -6967,7 +6795,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
+            <div class="subtitle">Box 36</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/VpyiHlC.png" alt="Gothitelle">
                 <span class="info">
@@ -7163,7 +6991,7 @@
                     <div class="ghost"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
+            <div class="subtitle">Box 37</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/6Dmb3NB.png" alt="Jellicent [♂]">
                 <span class="info">
@@ -7344,7 +7172,7 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
+            <div class="subtitle">Box 38</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/S8RGeLX.png" alt="Shelmet">
                 <span class="info">
@@ -7533,7 +7361,7 @@
                     <div class="fire"></div>
                 </span>
             </div>
-            <p class="box">Box 8</p>
+            <div class="subtitle">Box 39</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QbQu5gX.png" alt="Cobalion">
                 <span class="info">
@@ -7697,28 +7525,9 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="187" title="0/187"></progress>
-        </section>
-        <!-- This is the end of the Unova section. -->
-        <!-- This is the start of the Kalos section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Kalos Region (Generation VI)</div>
-        <section class="content" id="Gen6">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation V. -->
+            <!-- This is the start of Generation VI. -->
+            <div class="pkmn" id="Gen6">
                 <img class="notown" src="https://i.imgur.com/wzKuCrF.png" alt="Chespin">
                 <span class="info">
                     <p>#650 | Chespin</p>
@@ -7754,6 +7563,7 @@
                     <div class="fire"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 40</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/zvKkh75.png" alt="Delphox">
                 <span class="info">
@@ -7807,7 +7617,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/fJDNTeM.png" alt="Fletchinder">
                 <span class="info">
@@ -7847,6 +7656,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/3vUl34X.png" alt="Vivillon [Archipelago Pattern]">
                 <span class="info">
@@ -7910,7 +7720,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/x5fBJ16.png" alt="Vivillon [Jungle Pattern]">
                 <span class="info">
@@ -7956,6 +7765,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 41</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Z2rrtj7.png" alt="Vivillon [Poké Ball Pattern]">
                 <span class="info">
@@ -8019,7 +7829,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ef3azTr.png" alt="Litleo">
                 <span class="info">
@@ -8062,6 +7871,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/xxWztgz.png" alt="Flabébé [Red Flower]">
                 <span class="info">
@@ -8118,7 +7928,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/lEtm1S6.png" alt="Floette [Yellow Flower]">
                 <span class="info">
@@ -8159,6 +7968,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 42</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/USRJyw9.png" alt="Florges [Yellow Flower]">
                 <span class="info">
@@ -8212,7 +8022,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Aq3Uhw8.png" alt="Furfrou [Diamond Trim]">
                 <span class="info">
@@ -8253,6 +8062,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/yOukshF.png" alt="Furfrou [Matron Trim]">
                 <span class="info">
@@ -8308,7 +8118,6 @@
                     <div class="ghost"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/DjAarbT.png" alt="Doublade">
                 <span class="info">
@@ -8349,6 +8158,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 43</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/HAZGTd8.png" alt="Swirlix">
                 <span class="info">
@@ -8403,7 +8213,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/pKDlHOy.png" alt="Dragalge">
                 <span class="info">
@@ -8442,6 +8251,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ge4Ldyp.png" alt="Tyrunt">
                 <span class="info">
@@ -8497,7 +8307,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/yc8GfwH.png" alt="Carbink">
                 <span class="info">
@@ -8536,6 +8345,7 @@
                     <div class="dragon"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 44</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Goodra [Hisuian]">
                 <span class="info">
@@ -8592,7 +8402,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/DySHC76.png" alt="Avalugg">
                 <span class="info">
@@ -8633,6 +8442,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/5JiRnGV.png" alt="Xerneas [Active]">
                 <span class="info">
@@ -8693,7 +8503,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/TcZEhIi.png" alt="Hoopa [Confined]">
                 <span class="info">
@@ -8720,28 +8529,9 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="123" title="0/123"></progress>
-        </section>
-        <!-- This is the end of the Kalos section. -->
-        <!-- This is the start of the Alola section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Alola Region (Generation VII)</div>
-        <section class="content" id="Gen7">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation VI. -->
+            <!-- This is the start of Generation VII. -->
+            <div class="pkmn" id="Gen7">
                 <img class="notown" src="https://i.imgur.com/T6EBu5d.png" alt="Rowlet">
                 <span class="info">
                     <p>#722 | Rowlet</p>
@@ -8757,6 +8547,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 45</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/KvSE2Sp.png" alt="Decidueye">
                 <span class="info">
@@ -8834,7 +8625,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/U63g2zM.png" alt="Toucannon">
                 <span class="info">
@@ -8850,6 +8640,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/unnZwu0.png" alt="Gumshoos">
                 <span class="info">
@@ -8931,7 +8722,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/1pKQG1r.png" alt="Cutiefly">
                 <span class="info">
@@ -8948,6 +8738,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 46</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QGGsbZP.png" alt="Rockruff">
                 <span class="info">
@@ -9025,7 +8816,6 @@
                     <div class="ground"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4T45XjE.png" alt="Dewpider">
                 <span class="info">
@@ -9042,6 +8832,7 @@
                     <div class="bug"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Al8Gbjp.png" alt="Fomantis">
                 <span class="info">
@@ -9118,7 +8909,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Vsd2a81.png" alt="Tsareena">
                 <span class="info">
@@ -9133,6 +8923,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 47</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Kv2TODS.png" alt="Oranguru">
                 <span class="info">
@@ -9209,7 +9000,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ZXp5grd.png" alt="Silvally [Dark]">
                 <span class="info">
@@ -9226,6 +9016,7 @@
                     <div class="dragon"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/jJmSUVA.png" alt="Silvally [Electric]">
                 <span class="info">
@@ -9306,7 +9097,6 @@
                     <div class="poison"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/AZwjs7o.png" alt="Silvally [Psychic]">
                 <span class="info">
@@ -9323,6 +9113,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 48</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/0yEU3XZ.png" alt="Silvally [Steel]">
                 <span class="info">
@@ -9411,7 +9202,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/X0eSdW6.png" alt="Komala">
                 <span class="info">
@@ -9427,6 +9217,7 @@
                     <div class="dragon"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/cbNPnd6.png" alt="Togedemaru">
                 <span class="info">
@@ -9506,7 +9297,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/JifYNMi.png" alt="Tapu Bulu">
                 <span class="info">
@@ -9523,6 +9313,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 49</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/egJed6i.png" alt="Cosmog">
                 <span class="info">
@@ -9602,7 +9393,6 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/E5l1H7y.png" alt="Celesteela">
                 <span class="info">
@@ -9619,6 +9409,7 @@
                     <div class="steel"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/6LURsuL.png" alt="Guzzlord">
                 <span class="info">
@@ -9702,7 +9493,6 @@
                     <div class="poison"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Sv6n0Gu.png" alt="Naganadel">
                 <span class="info">
@@ -9719,6 +9509,7 @@
                     <div class="steel"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 50</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Axn1EP8.png" alt="Blacephalon">
                 <span class="info">
@@ -9748,36 +9539,9 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Melmetal [Gigantamax]">
-                <span class="info">
-                    <p>#809 | Melmetal</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="steel"></div>
-                </span>
-            </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="127" title="0/127"></progress>
-        </section>
-        <!-- This is the end of the Alola section. -->
-        <!-- This is the start of the Galar / Hisui section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Galar / Hisui Region (Generation VIII)</div>
-        <section class="content" id="Gen8">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation VII. -->
+            <!-- This is the start of Generation VIII. -->
+            <div class="pkmn" id="Gen8">
                 <img class="notown" src="https://i.imgur.com/s0WjOlm.png" alt="Grookey">
                 <span class="info">
                     <p>#810 | Grookey</p>
@@ -9795,14 +9559,6 @@
                 <img class="notown" src="https://i.imgur.com/Zqz2UyM.png" alt="Rillaboom">
                 <span class="info">
                     <p>#812 | Rillaboom</p>
-                    <div class="grass"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Rillaboom [Gigantamax]">
-                <span class="info">
-                    <p>#812 | Rillaboom</p>
-                    <p class="form">Gigantamax</p>
                     <div class="grass"></div>
                 </span>
             </div>
@@ -9828,14 +9584,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Cinderace [Gigantamax]">
-                <span class="info">
-                    <p>#815 | Cinderace</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="fire"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/BX1ERvo.png" alt="Sobble">
                 <span class="info">
                     <p>#816 | Sobble</p>
@@ -9849,6 +9597,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/026UCaN.png" alt="Inteleon">
                 <span class="info">
@@ -9856,15 +9605,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Inteleon [Gigantamax]">
-                <span class="info">
-                    <p>#818 | Inteleon</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="water"></div>
-                </span>
-            </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/dKGJhmj.png" alt="Skwovet">
                 <span class="info">
@@ -9902,15 +9642,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Corviknight [Gigantamax]">
-                <span class="info">
-                    <p>#823 | Corviknight</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="flying"></div>
-                    <div class="steel"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/d7yVGuD.png" alt="Blipbug">
                 <span class="info">
                     <p>#824 | Blipbug</p>
@@ -9934,15 +9665,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Orbeetle [Gigantamax]">
-                <span class="info">
-                    <p>#826 | Orbeetle</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="bug"></div>
-                    <div class="psychic"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/s9xduBM.png" alt="Nickit">
                 <span class="info">
                     <p>#827 | Nickit</p>
@@ -9956,7 +9678,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/isDy6SV.png" alt="Gossifleur">
                 <span class="info">
@@ -9964,6 +9685,7 @@
                     <div class="grass"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 51</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/9eL8jyo.png" alt="Eldegoss">
                 <span class="info">
@@ -9996,15 +9718,6 @@
                 <img class="notown" src="https://i.imgur.com/36Plv6m.png" alt="Drednaw">
                 <span class="info">
                     <p>#834 | Drednaw</p>
-                    <div class="water"></div>
-                    <div class="rock"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Drednaw [Gigantamax]">
-                <span class="info">
-                    <p>#834 | Drednaw</p>
-                    <p class="form">Gigantamax</p>
                     <div class="water"></div>
                     <div class="rock"></div>
                 </span>
@@ -10046,16 +9759,6 @@
                     <div class="fire"></div>
                 </span>
             </div>
-            <br>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Coalossal [Gigantamax]">
-                <span class="info">
-                    <p>#839 | Coalossal</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="rock"></div>
-                    <div class="fire"></div>
-                </span>
-            </div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/AnrT1MZ.png" alt="Applin">
                 <span class="info">
@@ -10072,28 +9775,11 @@
                     <div class="dragon"></div>
                 </span>
             </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Flapple [Gigantamax]">
-                <span class="info">
-                    <p>#841 | Flapple</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="grass"></div>
-                    <div class="dragon"></div>
-                </span>
-            </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4myffHw.png" alt="Appletun">
                 <span class="info">
                     <p>#842 | Appletun</p>
-                    <div class="grass"></div>
-                    <div class="dragon"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Appletun [Gigantamax]">
-                <span class="info">
-                    <p>#842 | Appletun</p>
-                    <p class="form">Gigantamax</p>
                     <div class="grass"></div>
                     <div class="dragon"></div>
                 </span>
@@ -10109,14 +9795,6 @@
                 <img class="notown" src="https://i.imgur.com/p7ilT6Q.png" alt="Sandaconda">
                 <span class="info">
                     <p>#844 | Sandaconda</p>
-                    <div class="ground"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Sandaconda [Gigantamax]">
-                <span class="info">
-                    <p>#844 | Sandaconda</p>
-                    <p class="form">Gigantamax</p>
                     <div class="ground"></div>
                 </span>
             </div>
@@ -10146,7 +9824,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/vkbAhh9.png" alt="Arrokuda">
                 <span class="info">
@@ -10188,15 +9865,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Toxtricity [Gigantamax]">
-                <span class="info">
-                    <p>#849 | Toxtricity</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="electric"></div>
-                    <div class="poison"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/sS4vlfq.png" alt="Sizzlipede">
                 <span class="info">
                     <p>#850 | Sizzlipede</p>
@@ -10204,19 +9872,11 @@
                     <div class="bug"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 52</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/T2ZP7ow.png" alt="Centiskorch">
                 <span class="info">
                     <p>#851 | Centiskorch</p>
-                    <div class="fire"></div>
-                    <div class="bug"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Centiskorch [Gigantamax]">
-                <span class="info">
-                    <p>#851 | Centiskorch</p>
-                    <p class="form">Gigantamax</p>
                     <div class="fire"></div>
                     <div class="bug"></div>
                 </span>
@@ -10242,7 +9902,6 @@
                     <div class="ghost"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nNyP7BT.png" alt="Polteageist">
                 <span class="info">
@@ -10273,15 +9932,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Hatterene [Gigantamax]">
-                <span class="info">
-                    <p>#858 | Hatterene</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="psychic"></div>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/FewoipB.png" alt="Impidimp">
                 <span class="info">
                     <p>#859 | Impidimp</p>
@@ -10306,15 +9956,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Grimmsnarl [Gigantamax]">
-                <span class="info">
-                    <p>#861 | Grimmsnarl</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="dark"></div>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/SauP8Mh.png" alt="Obstagoon">
                 <span class="info">
                     <p>#862 | Obstagoon</p>
@@ -10322,6 +9963,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/6XIPig3.png" alt="Perrserker">
                 <span class="info">
@@ -10336,7 +9978,6 @@
                     <div class="ghost"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/1XJ1CkG.png" alt="Sirfetch'd">
                 <span class="info">
@@ -10371,516 +10012,6 @@
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Strawberry)]">
                 <span class="info">
                     <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Vanilla Cream (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Vanilla Cream <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <br>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Cream (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Cream <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <p class="box">Box 5</p>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Matcha Cream (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Matcha Cream <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Mint Cream (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Mint Cream <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <br>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Lemon Cream (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Lemon Cream <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Salted Cream (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Salted Cream <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <p class="box">Box 6</p>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Ruby Swirl (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Ruby Swirl <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Caramel Swirl (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Caramel Swirl <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <br>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Strawberry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Strawberry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Berry)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Berry)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Love)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Love)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Star)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Star)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Clover)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Clover)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Flower)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Flower)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Rainbow Swirl (Ribbon)]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Rainbow Swirl <br> (Ribbon)</p>
-                    <div class="fairy"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Alcremie [Gigantamax]">
-                <span class="info">
-                    <p>#869 | Alcremie</p>
-                    <p class="form">Gigantamax</p>
                     <div class="fairy"></div>
                 </span>
             </div>
@@ -10914,7 +10045,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/TxLFZI9.png" alt="Stonjourner">
                 <span class="info">
@@ -10922,6 +10052,7 @@
                     <div class="rock"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 53</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nQkQ5VG.png" alt="Eiscue [Ice Face]">
                 <span class="info">
@@ -10989,14 +10120,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Copperajah [Gigantamax]">
-                <span class="info">
-                    <p>#879 | Copperajah</p>
-                    <p class="form">Gigantamax</p>
-                    <div class="steel"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Dracozolt">
                 <span class="info">
                     <p>#880 | Dracozolt</p>
@@ -11012,7 +10135,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Dracovish">
                 <span class="info">
@@ -11029,19 +10151,11 @@
                     <div class="ice"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/8Z21iJK.png" alt="Duraludon">
                 <span class="info">
                     <p>#884 | Duraludon</p>
-                    <div class="steel"></div>
-                    <div class="dragon"></div>
-                </span>
-            </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Duraludon [Gigantamax]">
-                <span class="info">
-                    <p>#884 | Duraludon</p>
-                    <p class="form">Gigantamax</p>
                     <div class="steel"></div>
                     <div class="dragon"></div>
                 </span>
@@ -11112,16 +10226,6 @@
                     <div class="dragon"></div>
                 </span>
             </div>
-            <p class="box">Box 8</p>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Eternatus [Eternamax]">
-                <span class="info">
-                    <p>#890 | Eternatus</p>
-                    <p class="form">Eternamax</p>
-                    <div class="poison"></div>
-                    <div class="dragon"></div>
-                </span>
-            </div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/JCCSeVk.png" alt="Kubfu">
                 <span class="info">
@@ -11139,16 +10243,6 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png"
-                    alt="Urshifu [Gigantamax Single Strike Style]">
-                <span class="info">
-                    <p>#892 | Urshifu</p>
-                    <p class="form">Gigantamax <br> Single Strike Style</p>
-                    <div class="fighting"></div>
-                    <div class="dark"></div>
-                </span>
-            </div>
-            <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/jilNpoL.png" alt="Urshifu [Rapid Strike Style]">
                 <span class="info">
                     <p>#892 | Urshifu</p>
@@ -11157,15 +10251,7 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Urshifu [Gigantamax Rapid Strike Style]">
-                <span class="info">
-                    <p>#892 | Urshifu</p>
-                    <p class="form">Gigantamax <br> Rapid Strike Style</p>
-                    <div class="fighting"></div>
-                    <div class="water"></div>
-                </span>
-            </div>
+            <div class="subtitle">Box 54</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Zarude">
                 <span class="info">
@@ -11184,14 +10270,14 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Regieleki">
+                <img class="notown" src="https://i.imgur.com/Uoip7Xz.png" alt="Regieleki">
                 <span class="info">
                     <p>#894 | Regieleki</p>
                     <div class="electric"></div>
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Regidrago">
+                <img class="notown" src="https://i.imgur.com/8KR7aXj.png" alt="Regidrago">
                 <span class="info">
                     <p>#895 | Regidrago</p>
                     <div class="dragon"></div>
@@ -11211,7 +10297,6 @@
                     <div class="ghost"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Calyrex">
                 <span class="info">
@@ -11262,6 +10347,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Ursaluna [Bloodmoon]">
                 <span class="info">
@@ -11314,7 +10400,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <p class="box">Box 9</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Enamorus [Therian]">
                 <span class="info">
@@ -11324,28 +10409,9 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="193" title="0/193"></progress>
-        </section>
-        <!-- This is the end of the Galar / Hisui section. -->
-        <!-- This is the start of the Paldea / Kitakami section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Paldea / Kitakami Region (Generation IX)</div>
-        <section class="content" id="Gen9">
-            <p class="box">Box 1</p>
-            <div class="pkmn">
+            <!-- This is the end of Generation VIII. -->
+            <!-- This is the start of Generation IX. -->
+            <div class="pkmn" id="Gen9">
                 <img class="notown" src="https://i.imgur.com/pDh236H.png" alt="Sprigatito">
                 <span class="info">
                     <p>#906 | Sprigatito</p>
@@ -11368,21 +10434,22 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Fuecoco">
+                <img class="notown" src="https://i.imgur.com/SPdu3ZW.png" alt="Fuecoco">
                 <span class="info">
                     <p>#909 | Fuecoco</p>
                     <div class="fire"></div>
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Crocalor">
+                <img class="notown" src="https://i.imgur.com/7HUzJpE.png" alt="Crocalor">
                 <span class="info">
                     <p>#910 | Crocalor</p>
                     <div class="fire"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 55</div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Skeledirge">
+                <img class="notown" src="https://i.imgur.com/TMudYUk.png" alt="Skeledirge">
                 <span class="info">
                     <p>#911 | Skeledirge</p>
                     <div class="fire"></div>
@@ -11434,7 +10501,6 @@
                     <div class="normal"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Tarountula">
                 <span class="info">
@@ -11471,6 +10537,7 @@
                     <div class="electric"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Pawmo">
                 <span class="info">
@@ -11524,7 +10591,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Smoliv">
                 <span class="info">
@@ -11567,6 +10633,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 56</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Squawkabilly [Yellow Plumage]">
                 <span class="info">
@@ -11621,7 +10688,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Ceruledge">
                 <span class="info">
@@ -11660,6 +10726,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Maschiff">
                 <span class="info">
@@ -11714,7 +10781,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Toedscruel">
                 <span class="info">
@@ -11752,6 +10818,7 @@
                     <div class="bug"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 57</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Rabsca">
                 <span class="info">
@@ -11805,7 +10872,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Wugtrio">
                 <span class="info">
@@ -11844,6 +10910,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Varoom">
                 <span class="info">
@@ -11898,7 +10965,6 @@
                     <div class="ghost"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Houndstone">
                 <span class="info">
@@ -11936,6 +11002,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 58</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Dondozo">
                 <span class="info">
@@ -11994,7 +11061,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Dudunsparce [Two-Segment]">
                 <span class="info">
@@ -12035,6 +11101,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Brute Bonnet">
                 <span class="info">
@@ -12091,7 +11158,6 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Iron Jugulis">
                 <span class="info">
@@ -12132,6 +11198,7 @@
                     <div class="ice"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 59</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Baxcalibur">
                 <span class="info">
@@ -12188,7 +11255,6 @@
                     <div class="ground"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Chi-Yu">
                 <span class="info">
@@ -12214,21 +11280,24 @@
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Koraidon">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Koraidon [Apex Build]">
                 <span class="info">
                     <p>#1007 | Koraidon</p>
+                    <p class="form">Apex Build</p>
                     <div class="fighting"></div>
                     <div class="dragon"></div>
                 </span>
             </div>
             <div class="pkmn">
-                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Miraidon">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Miraidon [Ultimate Mode]">
                 <span class="info">
                     <p>#1008 | Miraidon</p>
+                    <p class="form">Ultimate Mode</p>
                     <div class="electric"></div>
                     <div class="dragon"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Walking Wake">
                 <span class="info">
@@ -12285,7 +11354,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Fezandipiti">
                 <span class="info">
@@ -12329,28 +11397,81 @@
                     <div class="rock"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="125" title="0/125"></progress>
-        </section>
-        <!-- This is the end of the Paldea / Kitakami section. -->
-        <!-- This is the start of the Novelty section. -->
-        <ul class="quickjump">
-            <li><a href="#Gen1">Kanto</a></li>
-            <li><a href="#Gen2">Johto</a></li>
-            <li><a href="#Gen3">Hoenn</a></li>
-            <li><a href="#Gen4">Sinnoh</a></li>
-            <li><a href="#Gen5">Unova</a></li>
-            <li><a href="#Gen6">Kalos</a></li>
-            <li><a href="#Gen7">Alola</a></li>
-            <li><a href="#Gen8">Galar / Hisui</a></li>
-            <li><a href="#Gen9">Paldea / Kitakami</a></li>
-            <li><a href="#Novelty">Novelty</a></li>
-            <li><a href="#Top"><em>Top of page</em></a></li>
-        </ul>
-        <div class="category">The Novelties</div>
-        <section class="content" id="Novelty">
-            <p class="box">Box 1</p>
+            <div class="subtitle">Box 60</div>
             <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Archaludon">
+                <span class="info">
+                    <p>#1018 | Archaludon</p>
+                    <div class="steel"></div>
+                    <div class="dragon"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Hydrapple">
+                <span class="info">
+                    <p>#1019 | Hydrapple</p>
+                    <div class="grass"></div>
+                    <div class="dragon"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Gouging Fire">
+                <span class="info">
+                    <p>#1020 | Gouging Fire</p>
+                    <div class="fire"></div>
+                    <div class="dragon"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Raging Bolt">
+                <span class="info">
+                    <p>#1021 | Raging Bolt</p>
+                    <div class="electric"></div>
+                    <div class="dragon"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Iron Boulder">
+                <span class="info">
+                    <p>#1022 | Iron Boulder</p>
+                    <div class="rock"></div>
+                    <div class="psychic"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Iron Crown">
+                <span class="info">
+                    <p>#1023 | Iron Crown</p>
+                    <div class="steel"></div>
+                    <div class="psychic"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Terapagos">
+                <span class="info">
+                    <p>#1024 | Terapagos</p>
+                    <div class="normal"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Terapagos [Terastal]">
+                <span class="info">
+                    <p>#1024 | Terapagos</p>
+                    <p class="form">Terastal</p>
+                    <div class="normal"></div>
+                </span>
+            </div>
+            <div class="pkmn">
+                <img class="notown" src="https://i.imgur.com/tifFoSb.png" alt="Pecharunt">
+                <span class="info">
+                    <p>#1025 | Pecharunt</p>
+                    <div class="poison"></div>
+                    <div class="ghost"></div>
+                </span>
+            </div>
+            <!-- This is the end of Generation IX. -->
+            <!-- This is the start of The Novelties. -->
+            <div class="pkmn" id="Novelty">
                 <img class="notown" src="https://i.imgur.com/glOLBbG.png" alt="Bulbasaur [Shedinja Cap]">
                 <span class="info">
                     <p>Bulbasaur</p>
@@ -12375,6 +11496,7 @@
                     <div class="dark"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/yGsgcex.png" alt="Venusaur Clone [♂]">
                 <span class="info">
@@ -12449,7 +11571,6 @@
                     <div class="dark"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/muhij7N.png" alt="Blastoise Clone">
                 <span class="info">
@@ -12474,6 +11595,7 @@
                     <div class="fairy"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 61</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/HhYQMgi.png" alt="Pink Butterfree">
                 <span class="info">
@@ -12545,7 +11667,6 @@
                     <div class="electric"></div>
                 </span>
             </div>
-            <p class="box">Box 2</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/cvT6WAy.png" alt="Pikachu [Libre Cosplay]">
                 <span class="info">
@@ -12570,6 +11691,7 @@
                     <div class="electric"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/x1uhnuy.png" alt="Pikachu [Belle Cosplay]">
                 <span class="info">
@@ -12641,7 +11763,6 @@
                     <div class="fire"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QjEBKPV.png" alt="Winter Ninetales">
                 <span class="info">
@@ -12665,6 +11786,7 @@
                     <div class="poison"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 62</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/XLnOMtX.png" alt="Valencian Gloom">
                 <span class="info">
@@ -12735,7 +11857,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <p class="box">Box 3</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/STf46Xc.png" alt="Harvest Farfetch'd">
                 <span class="info">
@@ -12759,6 +11880,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/eAE9nhT.png" alt="Cloysterman">
                 <span class="info">
@@ -12831,7 +11953,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/XgdIksg.png" alt="Magikarp [Calico Pattern]">
                 <span class="info">
@@ -12856,6 +11977,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 63</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/6xzOBEZ.png" alt="Magikarp [Grey Pattern]">
                 <span class="info">
@@ -12928,7 +12050,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <p class="box">Box 4</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/S3M9XbF.png" alt="Omastar [Orchid]">
                 <span class="info">
@@ -12954,6 +12075,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/l6rkEcW.png" alt="Fossil Kabutops">
                 <span class="info">
@@ -13026,7 +12148,6 @@
                     <div class="fire"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/oJOz5X3.png" alt="Magma Totodile">
                 <span class="info">
@@ -13051,6 +12172,7 @@
                     <div class="water"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 64</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/nQvxicN.png" alt="Noothoot">
                 <span class="info">
@@ -13125,7 +12247,6 @@
                     <div class="grass"></div>
                 </span>
             </div>
-            <p class="box">Box 5</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/aHve1vn.png" alt="Golden Sudowoodo">
                 <span class="info">
@@ -13151,6 +12272,7 @@
                     <div class="psychic"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/oTImuGy.png" alt="Snowy Girafarig [♀]">
                 <span class="info">
@@ -13226,7 +12348,6 @@
                     <div class="water"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/19imzkj.png" alt="Octillerage">
                 <span class="info">
@@ -13249,6 +12370,7 @@
                     <div class="normal"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 65</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ncnJBOd.png" alt="Lunar Larvitar">
                 <span class="info">
@@ -13322,7 +12444,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <p class="box">Box 6</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/WFXqhku.png" alt="Jacnea">
                 <span class="info">
@@ -13348,6 +12469,7 @@
                     <div class="flying"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/Ky0Lf8p.png" alt="Altaria [Cosmic]">
                 <span class="info">
@@ -13423,7 +12545,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/SIm7em7.png" alt="Purple Kecleon">
                 <span class="info">
@@ -13447,6 +12568,7 @@
                     <div class="ice"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 66</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/H07snjE.png" alt="Autumn Tropius [♂]">
                 <span class="info">
@@ -13525,7 +12647,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <p class="box">Box 7</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/5AfbZS3.png" alt="Bidofo [Wind Magic]">
                 <span class="info">
@@ -13553,6 +12674,7 @@
                     <div class="electric"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/suKK3Zn.png" alt="Bidofo [Light Magic]">
                 <span class="info">
@@ -13626,7 +12748,6 @@
                     <div class="bug"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/BmdpGpX.png" alt="Cherrim [Frost]">
                 <span class="info">
@@ -13654,6 +12775,7 @@
                     <div class="fire"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 67</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/v1WYWmM.png" alt="Present Drifloon">
                 <span class="info">
@@ -13726,7 +12848,6 @@
                     <div class="steel"></div>
                 </span>
             </div>
-            <p class="box">Box 8</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/haWijO8.png" alt="Chatotiel">
                 <span class="info">
@@ -13751,6 +12872,7 @@
                     <div class="ground"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/F4jmRxb.png" alt="Ekranord">
                 <span class="info">
@@ -13826,7 +12948,6 @@
                     <div class="psychic"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/CViSMjs.png" alt="Morphore">
                 <span class="info">
@@ -13851,6 +12972,7 @@
                     <div class="ice"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 68</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/omEcJmh.png" alt="Settigant">
                 <span class="info">
@@ -13923,7 +13045,6 @@
                     <div class="ice"></div>
                 </span>
             </div>
-            <p class="box">Box 9</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/QUAZYkh.png" alt="Melonait">
                 <span class="info">
@@ -13948,6 +13069,7 @@
                     <div class="fire"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/ZFmvs7t.png" alt="Deibot">
                 <span class="info">
@@ -14022,7 +13144,6 @@
                     <div class="fairy"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/qAPdFBv.png" alt="Floette [Eternal Flower]">
                 <span class="info">
@@ -14047,6 +13168,7 @@
                     <div class="dragon"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 69</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/4gj0VrW.png" alt="Fossil Tyrantrum">
                 <span class="info">
@@ -14125,7 +13247,6 @@
                     <div class="ground"></div>
                 </span>
             </div>
-            <p class="box">Box 10</p>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/RCbsoVZ.png" alt="Charjabug [Sophocles Lab]">
                 <span class="info">
@@ -14153,6 +13274,7 @@
                     <div class="electric"></div>
                 </span>
             </div>
+            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/DalIQTA.png" alt="Charjabug [Science Speed]">
                 <span class="info">
@@ -14233,7 +13355,6 @@
                     <div class="flying"></div>
                 </span>
             </div>
-            <br>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/bLWzSzo.png" alt="Korechu">
                 <span class="info">
@@ -14260,6 +13381,7 @@
                     <div class="steel"></div>
                 </span>
             </div>
+            <div class="subtitle">Box 70</div>
             <div class="pkmn">
                 <img class="notown" src="https://i.imgur.com/a4dgbyf.png" alt="Dracowymsy [Druid]">
                 <span class="info">
@@ -14312,15 +13434,13 @@
                     <div class="poison"></div>
                 </span>
             </div>
-            <label>Completion progress:</label>
-            <progress value="0" max="237" title="0/237"></progress>
-        </section>
-        <!-- This is the end of the Novelty section. -->
+            <!-- This is the end of The Novelties. -->
+        </div>
     </main>
     <footer>
         <img class="left" src="https://i.imgur.com/oM3oePl.png">
         <p>
-            Version: 3.1.1 | Last Updated: October 2023<br>
+            Version: 4.0 | Last Updated: March 2024<br>
             Source:
             <a href="https://github.com/Level-X/GPX-Shiny-Tracker" target="_blank">GPX+ Shiny Tracker on GitHub</a> |
             <a href="https://forums.gpx.plus/index.php?showtopic=78892" target="_blank">GPX+ Forum Thread</a><br>
