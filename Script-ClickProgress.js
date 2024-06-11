@@ -1,76 +1,99 @@
 function countProgress(region) {
+    //TODO: can I change this from a switch to a function that takes the class as argument, and deduplicate? 
     switch (region) {
         case 'Gen1':
-            let elemsGen1 = document.getElementsByClassName('Gen1').length;
-            let ownedGen1 = document.querySelectorAll('.Gen1 .own').length;
-            /* document.querySelectorAll uses CSS selectors which you can chain normally, so here I select
-            all elements with the class ".own" that are anywhere under elements with the class ".Gen1". cool!*/
+            let elemsGen1 = document.querySelectorAll('.Gen1 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            /* More advanced usage of querySelectorAll! Who needs getElementsByClassName? This selects all
+            elements which have the class .Gen9, and also have at least one direct child element which has
+            the attribute src=the placeholder image link. We need to do this because we need to only select
+            the Gen9 Pokémon, that class being on the divs, but also not select the placeholders, which are
+            imgs inside the divs.
+            We could also use document.querySelectorAll('.Gen9:not(.placeholder)') where .placeholder is
+            a class on every placeholder div, but we would have to add that manually. So long as the URL
+            for the placeholder image is the same across all placeholders, it's easier to take advantage of
+            that fact, and we can just change the URL here if needed. Admittedly it is a bit magic.*/
+            let ownedGen1 = Array.from(elemsGen1).filter(value => Array.from(document.querySelectorAll('.Gen1 .own')).includes(value));
+            /* Build an array containing those Pokémon which are not placeholders but which also appear in
+            an array of Pokémon marked as owned. This counts owned Pokémon while excluding placeholders. */
             let progGen1 = document.getElementById('progressBars').getElementsByTagName('progress')[0];
-            progGen1.setAttribute("value", ownedGen1);
-            progGen1.setAttribute("title", ownedGen1.toString().concat("/", elemsGen1.toString()));
+            // The progress bars are all in order in a div, so just get the first (0th) one.
+            progGen1.setAttribute("value", ownedGen1.length);
+            progGen1.setAttribute("title", ownedGen1.length.toString().concat("/", elemsGen1.length.toString()));
+            progGen1.setAttribute("max",   elemsGen1.length);
+            /* Set the values for the progress bars according to the number of Pokémon to be clicked. This
+            ensures the progress bars are correct. */
             break;
         case 'Gen2':
-            let elemsGen2 = document.getElementsByClassName('Gen2').length;
-            let ownedGen2 = document.querySelectorAll('.Gen2 .own').length;
+            let elemsGen2 = document.querySelectorAll('.Gen2 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen2 = Array.from(elemsGen2).filter(value => Array.from(document.querySelectorAll('.Gen2 .own')).includes(value));
             let progGen2 = document.getElementById('progressBars').getElementsByTagName('progress')[1];
-            progGen2.setAttribute("value", ownedGen2);
-            progGen2.setAttribute("title", ownedGen2.toString().concat("/", elemsGen2.toString()));
+            progGen2.setAttribute("value", ownedGen2.length);
+            progGen2.setAttribute("title", ownedGen2.length.toString().concat("/", elemsGen2.length.toString()));
+            progGen2.setAttribute("max",   elemsGen2.length);
             break;
         case 'Gen3':
-            let elemsGen3 = document.getElementsByClassName('Gen3').length;
-            let ownedGen3 = document.querySelectorAll('.Gen3 .own').length;
+            let elemsGen3 = document.querySelectorAll('.Gen3 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen3 = Array.from(elemsGen3).filter(value => Array.from(document.querySelectorAll('.Gen3 .own')).includes(value));
             let progGen3 = document.getElementById('progressBars').getElementsByTagName('progress')[2];
-            progGen3.setAttribute("value", ownedGen3);
-            progGen3.setAttribute("title", ownedGen3.toString().concat("/", elemsGen3.toString()));
+            progGen3.setAttribute("value", ownedGen3.length);
+            progGen3.setAttribute("title", ownedGen3.length.toString().concat("/", elemsGen3.length.toString()));
+            progGen3.setAttribute("max",   elemsGen3.length);
             break;
         case 'Gen4':
-            let elemsGen4 = document.getElementsByClassName('Gen4').length;
-            let ownedGen4 = document.querySelectorAll('.Gen4 .own').length;
+            let elemsGen4 = document.querySelectorAll('.Gen4 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen4 = Array.from(elemsGen4).filter(value => Array.from(document.querySelectorAll('.Gen4 .own')).includes(value));
             let progGen4 = document.getElementById('progressBars').getElementsByTagName('progress')[3];
-            progGen4.setAttribute("value", ownedGen4);
-            progGen4.setAttribute("title", ownedGen4.toString().concat("/", elemsGen4.toString()));
+            progGen4.setAttribute("value", ownedGen4.length);
+            progGen4.setAttribute("title", ownedGen4.length.toString().concat("/", elemsGen4.length.toString()));
+            progGen4.setAttribute("max",   elemsGen4.length);
             break;
         case 'Gen5':
-            let elemsGen5 = document.getElementsByClassName('Gen5').length;
-            let ownedGen5 = document.querySelectorAll('.Gen5 .own').length;
+            let elemsGen5 = document.querySelectorAll('.Gen5 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen5 = Array.from(elemsGen5).filter(value => Array.from(document.querySelectorAll('.Gen5 .own')).includes(value));
             let progGen5 = document.getElementById('progressBars').getElementsByTagName('progress')[4];
-            progGen5.setAttribute("value", ownedGen5);
-            progGen5.setAttribute("title", ownedGen5.toString().concat("/", elemsGen5.toString()));
+            progGen5.setAttribute("value", ownedGen5.length);
+            progGen5.setAttribute("title", ownedGen5.length.toString().concat("/", elemsGen5.length.toString()));
+            progGen5.setAttribute("max",   elemsGen5.length);
             break;
         case 'Gen6':
-            let elemsGen6 = document.getElementsByClassName('Gen6').length;
-            let ownedGen6 = document.querySelectorAll('.Gen6 .own').length;
+            let elemsGen6 = document.querySelectorAll('.Gen6 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen6 = Array.from(elemsGen6).filter(value => Array.from(document.querySelectorAll('.Gen6 .own')).includes(value));
             let progGen6 = document.getElementById('progressBars').getElementsByTagName('progress')[5];
-            progGen6.setAttribute("value", ownedGen6);
-            progGen6.setAttribute("title", ownedGen6.toString().concat("/", elemsGen6.toString()));
+            progGen6.setAttribute("value", ownedGen6.length);
+            progGen6.setAttribute("title", ownedGen6.length.toString().concat("/", elemsGen6.length.toString()));
+            progGen6.setAttribute("max",   elemsGen6.length);
             break;
         case 'Gen7':
-            let elemsGen7 = document.getElementsByClassName('Gen7').length;
-            let ownedGen7 = document.querySelectorAll('.Gen7 .own').length;
+            let elemsGen7 = document.querySelectorAll('.Gen7 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen7 = Array.from(elemsGen7).filter(value => Array.from(document.querySelectorAll('.Gen7 .own')).includes(value));
             let progGen7 = document.getElementById('progressBars').getElementsByTagName('progress')[6];
-            progGen7.setAttribute("value", ownedGen7);
-            progGen7.setAttribute("title", ownedGen7.toString().concat("/", elemsGen7.toString()));
+            progGen7.setAttribute("value", ownedGen7.length);
+            progGen7.setAttribute("title", ownedGen7.length.toString().concat("/", elemsGen7.length.toString()));
+            progGen7.setAttribute("max",   elemsGen7.length);
             break;
         case 'Gen8':
-            let elemsGen8 = document.getElementsByClassName('Gen8').length;
-            let ownedGen8 = document.querySelectorAll('.Gen8 .own').length;
+            let elemsGen8 = document.querySelectorAll('.Gen8 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen8 = Array.from(elemsGen8).filter(value => Array.from(document.querySelectorAll('.Gen8 .own')).includes(value));
             let progGen8 = document.getElementById('progressBars').getElementsByTagName('progress')[7];
-            progGen8.setAttribute("value", ownedGen8);
-            progGen8.setAttribute("title", ownedGen8.toString().concat("/", elemsGen8.toString()));
+            progGen8.setAttribute("value", ownedGen8.length);
+            progGen8.setAttribute("title", ownedGen8.length.toString().concat("/", elemsGen8.length.toString()));
+            progGen8.setAttribute("max",   elemsGen8.length);
             break;
         case 'Gen9':
-            let elemsGen9 = document.getElementsByClassName('Gen9').length;
-            let ownedGen9 = document.querySelectorAll('.Gen9 .own').length;
+            let elemsGen9 = document.querySelectorAll('.Gen9 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedGen9 = Array.from(elemsGen9).filter(value => Array.from(document.querySelectorAll('.Gen9 .own')).includes(value));
             let progGen9 = document.getElementById('progressBars').getElementsByTagName('progress')[8];
-            progGen9.setAttribute("value", ownedGen9);
-            progGen9.setAttribute("title", ownedGen9.toString().concat("/", elemsGen9.toString()));
+            progGen9.setAttribute("value", ownedGen9.length);
+            progGen9.setAttribute("title", ownedGen9.length.toString().concat("/", elemsGen9.length.toString()));
+            progGen9.setAttribute("max",   elemsGen9.length);
             break;
         case 'Novelty':
-            let elemsNovelty = document.getElementsByClassName('Novelty').length;
-            let ownedNovelty = document.querySelectorAll('.Novelty .own').length;
+            let elemsNovelty = document.querySelectorAll('.Novelty > img:not([src="https://i.imgur.com/tifFoSb.png"])');
+            let ownedNovelty = Array.from(elemsNovelty).filter(value => Array.from(document.querySelectorAll('.Novelty .own')).includes(value));
             let progNovelty = document.getElementById('progressBars').getElementsByTagName('progress')[9];
-            progNovelty.setAttribute("value", ownedNovelty);
-            progNovelty.setAttribute("title", ownedNovelty.toString().concat("/", elemsNovelty.toString()));
+            progNovelty.setAttribute("value", ownedNovelty.length);
+            progNovelty.setAttribute("title", ownedNovelty.length.toString().concat("/", elemsNovelty.length.toString()));
+            progNovelty.setAttribute("max",   elemsNovelty.length);
             break;
         default:
             console.log("counting all generations by default");
