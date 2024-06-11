@@ -17,7 +17,7 @@ body {
 
     /* Font design. */
     font-family: calibri;
-    font-size: 11px;
+    font-size: 14px;
     color: white;
     /* End */
 
@@ -141,7 +141,7 @@ nav.menu ul:last-child {
 }
 
 nav.menu li {
-    padding: 2px;
+    padding: 2px 2px 2px 0;
 }
 /* End */
 
@@ -151,6 +151,7 @@ progress {
     width: 100%;
     background-color: #D4D4D4;
     border: 1px solid black;
+    margin-bottom: 8px;
 }
 
 progress::-moz-progress-bar {
