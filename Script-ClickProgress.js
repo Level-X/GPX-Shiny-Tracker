@@ -1,77 +1,79 @@
 function countProgress(region) {
     switch (region) {
         case 'Gen1':
-            let elemsGen1 = document.getElementById('Gen1').getElementsByTagName('img').length;
-            let ownedGen1 = document.getElementById('Gen1').querySelectorAll('.own').length;
-            let progGen1 = document.getElementById('Gen1').getElementsByTagName('progress')[0];
+            let elemsGen1 = document.getElementsByClassName('Gen1').length;
+            let ownedGen1 = document.querySelectorAll('.Gen1 .own').length;
+            /* document.querySelectorAll uses CSS selectors which you can chain normally, so here I select
+            all elements with the class ".own" that are anywhere under elements with the class ".Gen1". cool!*/
+            let progGen1 = document.getElementById('progressBars').getElementsByTagName('progress')[0];
             progGen1.setAttribute("value", ownedGen1);
             progGen1.setAttribute("title", ownedGen1.toString().concat("/", elemsGen1.toString()));
             break;
         case 'Gen2':
-            let elemsGen2 = document.getElementById('Gen2').getElementsByTagName('img').length;
-            let ownedGen2 = document.getElementById('Gen2').querySelectorAll('.own').length;
-            let progGen2 = document.getElementById('Gen2').getElementsByTagName('progress')[0];
+            let elemsGen2 = document.getElementsByClassName('Gen2').length;
+            let ownedGen2 = document.querySelectorAll('.Gen2 .own').length;
+            let progGen2 = document.getElementById('progressBars').getElementsByTagName('progress')[1];
             progGen2.setAttribute("value", ownedGen2);
             progGen2.setAttribute("title", ownedGen2.toString().concat("/", elemsGen2.toString()));
             break;
         case 'Gen3':
-            let elemsGen3 = document.getElementById('Gen3').getElementsByTagName('img').length;
-            let ownedGen3 = document.getElementById('Gen3').querySelectorAll('.own').length;
-            let progGen3 = document.getElementById('Gen3').getElementsByTagName('progress')[0];
+            let elemsGen3 = document.getElementsByClassName('Gen3').length;
+            let ownedGen3 = document.querySelectorAll('.Gen3 .own').length;
+            let progGen3 = document.getElementById('progressBars').getElementsByTagName('progress')[2];
             progGen3.setAttribute("value", ownedGen3);
             progGen3.setAttribute("title", ownedGen3.toString().concat("/", elemsGen3.toString()));
             break;
         case 'Gen4':
-            let elemsGen4 = document.getElementById('Gen4').getElementsByTagName('img').length;
-            let ownedGen4 = document.getElementById('Gen4').querySelectorAll('.own').length;
-            let progGen4 = document.getElementById('Gen4').getElementsByTagName('progress')[0];
+            let elemsGen4 = document.getElementsByClassName('Gen4').length;
+            let ownedGen4 = document.querySelectorAll('.Gen4 .own').length;
+            let progGen4 = document.getElementById('progressBars').getElementsByTagName('progress')[3];
             progGen4.setAttribute("value", ownedGen4);
             progGen4.setAttribute("title", ownedGen4.toString().concat("/", elemsGen4.toString()));
             break;
         case 'Gen5':
-            let elemsGen5 = document.getElementById('Gen5').getElementsByTagName('img').length;
-            let ownedGen5 = document.getElementById('Gen5').querySelectorAll('.own').length;
-            let progGen5 = document.getElementById('Gen5').getElementsByTagName('progress')[0];
+            let elemsGen5 = document.getElementsByClassName('Gen5').length;
+            let ownedGen5 = document.querySelectorAll('.Gen5 .own').length;
+            let progGen5 = document.getElementById('progressBars').getElementsByTagName('progress')[4];
             progGen5.setAttribute("value", ownedGen5);
             progGen5.setAttribute("title", ownedGen5.toString().concat("/", elemsGen5.toString()));
             break;
         case 'Gen6':
-            let elemsGen6 = document.getElementById('Gen6').getElementsByTagName('img').length;
-            let ownedGen6 = document.getElementById('Gen6').querySelectorAll('.own').length;
-            let progGen6 = document.getElementById('Gen6').getElementsByTagName('progress')[0];
+            let elemsGen6 = document.getElementsByClassName('Gen6').length;
+            let ownedGen6 = document.querySelectorAll('.Gen6 .own').length;
+            let progGen6 = document.getElementById('progressBars').getElementsByTagName('progress')[5];
             progGen6.setAttribute("value", ownedGen6);
             progGen6.setAttribute("title", ownedGen6.toString().concat("/", elemsGen6.toString()));
             break;
         case 'Gen7':
-            let elemsGen7 = document.getElementById('Gen7').getElementsByTagName('img').length;
-            let ownedGen7 = document.getElementById('Gen7').querySelectorAll('.own').length;
-            let progGen7 = document.getElementById('Gen7').getElementsByTagName('progress')[0];
+            let elemsGen7 = document.getElementsByClassName('Gen7').length;
+            let ownedGen7 = document.querySelectorAll('.Gen7 .own').length;
+            let progGen7 = document.getElementById('progressBars').getElementsByTagName('progress')[6];
             progGen7.setAttribute("value", ownedGen7);
             progGen7.setAttribute("title", ownedGen7.toString().concat("/", elemsGen7.toString()));
             break;
         case 'Gen8':
-            let elemsGen8 = document.getElementById('Gen8').getElementsByTagName('img').length;
-            let ownedGen8 = document.getElementById('Gen8').querySelectorAll('.own').length;
-            let progGen8 = document.getElementById('Gen8').getElementsByTagName('progress')[0];
+            let elemsGen8 = document.getElementsByClassName('Gen8').length;
+            let ownedGen8 = document.querySelectorAll('.Gen8 .own').length;
+            let progGen8 = document.getElementById('progressBars').getElementsByTagName('progress')[7];
             progGen8.setAttribute("value", ownedGen8);
             progGen8.setAttribute("title", ownedGen8.toString().concat("/", elemsGen8.toString()));
             break;
         case 'Gen9':
-            let elemsGen9 = document.getElementById('Gen9').getElementsByTagName('img').length;
-            let ownedGen9 = document.getElementById('Gen9').querySelectorAll('.own').length;
-            let progGen9 = document.getElementById('Gen9').getElementsByTagName('progress')[0];
+            let elemsGen9 = document.getElementsByClassName('Gen9').length;
+            let ownedGen9 = document.querySelectorAll('.Gen9 .own').length;
+            let progGen9 = document.getElementById('progressBars').getElementsByTagName('progress')[8];
             progGen9.setAttribute("value", ownedGen9);
             progGen9.setAttribute("title", ownedGen9.toString().concat("/", elemsGen9.toString()));
             break;
         case 'Novelty':
-            let elemsNovelty = document.getElementById('Novelty').getElementsByTagName('img').length;
-            let ownedNovelty = document.getElementById('Novelty').querySelectorAll('.own').length;
-            let progNovelty = document.getElementById('Novelty').getElementsByTagName('progress')[0];
+            let elemsNovelty = document.getElementsByClassName('Novelty').length;
+            let ownedNovelty = document.querySelectorAll('.Novelty .own').length;
+            let progNovelty = document.getElementById('progressBars').getElementsByTagName('progress')[9];
             progNovelty.setAttribute("value", ownedNovelty);
             progNovelty.setAttribute("title", ownedNovelty.toString().concat("/", elemsNovelty.toString()));
             break;
         default:
-            console.log("counting all regions by default");
+            console.log("counting all generations by default");
             countProgress('Gen1');
             countProgress('Gen2');
             countProgress('Gen3');
@@ -103,9 +105,9 @@ function mark(elem, region, status = "own",) {
 }
 
 function markAll() {
-    const elems = document.getElementsByTagName("img");
-    /* an extra class on each img would be necessary if there were any imgs that were
-    not Pokémon, but there are not */
+    const elems = document.getElementById("mark").getElementsByTagName("img");
+    /* an extra class on each img would be necessary if there were any img elements
+    that were children of the single <main> element and not Pokémon, but there are not */
 
     for (let i = 0; i < elems.length; i++) {
         if (elems[i].id === "Top") {
@@ -114,7 +116,7 @@ function markAll() {
         elems[i].onclick = mark; // to ensure this is the caller
         elems[i].addEventListener('click', function () {
             status = localStorage.getItem("shiny ".concat(this.alt));
-            region = this.parentElement.parentElement.id;
+            region = this.parentElement.classList[1];
             if (status === "own") {
                 mark(this, region, "notown");
                 // on a click, we want to set the _opposite_ status
@@ -122,9 +124,10 @@ function markAll() {
                 mark(this, region, "own");
                 // same thing
             } else {
-                mark(this, region);
+                mark(this, region, "own");
                 /* if there was no stored status, the existing status is notown,
-                so we set to own, which is the default for this function */
+                so we set to own (could combine this with the elif, but let's 
+                be explicit)*/
             }
         });
 
