@@ -110,44 +110,40 @@ function countProgress(region) {
     }
 }
 
-function mark(elem, region, status = "own",) {
-    if (status === "own") {
-        elem.classList = "own";
-    } else if (status === "notown") {
-        elem.classList = "notown";
-    } else {
+function mark(elem, generation, status = "own", count_now = true) {
+    if (!['own', 'notown'].includes(status)) {
+        // notice the ! to negate
         console.log("Invalid status passed, setting", elem.alt, "to owned");
         console.log("status passed was", status);
         elem.classList = "own";
-    }
+    } else { elem.classList = status; }
     /* note that these assume that the Pokémon images only have EITHER
     the class "own" OR the class "notown", since they overwrite the
     whole class list with only one of those two.*/
     localStorage.setItem("shiny ".concat(elem.alt), elem.classList);
-    countProgress(region);
+    if ( count_now ) { countProgress(generation); }
 }
 
 function markAll() {
-    const elems = document.getElementById("mark").getElementsByTagName("img");
+    const elems = document.getElementById("mark").querySelectorAll('img:not([src="https://i.imgur.com/tifFoSb.png"])');
     /* an extra class on each img would be necessary if there were any img elements
-    that were children of the single <main> element and not Pokémon, but there are not */
+    that were children of the single <main> element and not Pokémon, but there are not.
+    Also, this means we don't attach event listeners to placeholders, so they do nothing
+    when clicked upon. */
 
     for (let i = 0; i < elems.length; i++) {
-        if (elems[i].id === "Top") {
-            continue;
-        }
         elems[i].onclick = mark; // to ensure this is the caller
         elems[i].addEventListener('click', function () {
             status = localStorage.getItem("shiny ".concat(this.alt));
-            region = this.parentElement.classList[1];
+            gen = this.parentElement.classList[1];
             if (status === "own") {
-                mark(this, region, "notown");
+                mark(this, gen, "notown", true);
                 // on a click, we want to set the _opposite_ status
             } else if (status === "notown") {
-                mark(this, region, "own");
+                mark(this, gen, "own", true);
                 // same thing
             } else {
-                mark(this, region, "own");
+                mark(this, gen, "own", true);
                 /* if there was no stored status, the existing status is notown,
                 so we set to own (could combine this with the elif, but let's 
                 be explicit)*/
@@ -156,11 +152,11 @@ function markAll() {
 
         let state = localStorage.getItem("shiny ".concat(elems[i].alt));
         if (state !== null) {
-            console.log('state is not null, state is', state);
             if (state !== elems[i].alt) {
-                mark(elems[i], elems[i].parentElement.parentElement.id, state);
+                mark(elems[i], elems[i].parentElement.classList[1], state, false);
             }
         }
     }
     countProgress();
+    // we don't let each mark above count progress, so we do it all now
 }
