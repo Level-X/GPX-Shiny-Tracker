@@ -1,6 +1,7 @@
-function countProgress(region) {
+function countProgress(generation) {
     //TODO: can I change this from a switch to a function that takes the class as argument, and deduplicate? 
-    switch (region) {
+    console.log("generation was", generation)
+    switch (generation) {
         case 'Gen1':
             let elemsGen1 = document.querySelectorAll('.Gen1 > img:not([src="https://i.imgur.com/tifFoSb.png"])');
             /* More advanced usage of querySelectorAll! Who needs getElementsByClassName? This selects all
@@ -136,7 +137,6 @@ function markAll() {
     when clicked upon. */
 
     for (let i = 0; i < elems.length; i++) {
-        elems[i].onclick = mark; // to ensure this is the caller
         elems[i].addEventListener('click', function () {
             clickState = localStorage.getItem("shiny ".concat(this.alt));
             gen = this.parentElement.classList[1];
