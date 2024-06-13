@@ -110,17 +110,21 @@ function countProgress(region) {
     }
 }
 
-function mark(elem, generation, status = "own", count_now = true) {
-    if (!['own', 'notown'].includes(status)) {
+function mark(elem, generation, state = "own", count_now = true) {
+    if (!['own', 'notown'].includes(state)) {
         // notice the ! to negate
         console.log("Invalid status passed, setting", elem.alt, "to owned");
-        console.log("status passed was", status);
+        console.log("status passed was", state);
         elem.classList = "own";
-    } else { elem.classList = status; }
+    } else { elem.classList = state; }
     /* note that these assume that the Pokémon images only have EITHER
     the class "own" OR the class "notown", since they overwrite the
     whole class list with only one of those two.*/
-    localStorage.setItem("shiny ".concat(elem.alt), elem.classList);
+    if (state === "own") {
+        localStorage.setItem("shiny ".concat(elem.alt), "own");
+    } else { // we've already ensured state is valid
+        localStorage.removeItem("shiny ".concat(elem.alt));
+    }
     if ( count_now ) { countProgress(generation); }
 }
 
@@ -134,27 +138,23 @@ function markAll() {
     for (let i = 0; i < elems.length; i++) {
         elems[i].onclick = mark; // to ensure this is the caller
         elems[i].addEventListener('click', function () {
-            status = localStorage.getItem("shiny ".concat(this.alt));
+            clickState = localStorage.getItem("shiny ".concat(this.alt));
             gen = this.parentElement.classList[1];
-            if (status === "own") {
+            if (clickState !== null) {
                 mark(this, gen, "notown", true);
-                // on a click, we want to set the _opposite_ status
-            } else if (status === "notown") {
-                mark(this, gen, "own", true);
-                // same thing
+                /* if there was any stored status, treat it as own. Then we want
+                to set the _opposite_ status, i.e. notown. */
             } else {
                 mark(this, gen, "own", true);
-                /* if there was no stored status, the existing status is notown,
-                so we set to own (could combine this with the elif, but let's 
-                be explicit)*/
+                /* if there was no stored status, the existing status is notown
+                (as the default), so we set to own. */
             }
         });
 
-        let state = localStorage.getItem("shiny ".concat(elems[i].alt));
-        if (state !== null) {
-            if (state !== elems[i].alt) {
-                mark(elems[i], elems[i].parentElement.classList[1], state, false);
-            }
+        let prevState = localStorage.getItem("shiny ".concat(elems[i].alt));
+        if (prevState !== null) {
+            mark(elems[i], elems[i].parentElement.classList[1], "own", false);
+            // if any state was stored, treat it as own, and mark accordingly.
         }
     }
     countProgress();
