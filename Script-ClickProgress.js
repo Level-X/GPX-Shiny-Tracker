@@ -9,7 +9,7 @@ function countProgress(generation) {
             the attribute src=the placeholder image link. We need to do this because we need to only select
             the Gen9 Pokémon, that class being on the divs, but also not select the placeholders, which are
             imgs inside the divs.
-            We could also use document.querySelectorAll('.Gen9:not(.placeholder)') where .placeholder is
+            We could also use document.querySelectorAll('.Gen1:not(.placeholder)') where .placeholder is
             a class on every placeholder div, but we would have to add that manually. So long as the URL
             for the placeholder image is the same across all placeholders, it's easier to take advantage of
             that fact, and we can just change the URL here if needed. Admittedly it is a bit magic.*/
@@ -137,6 +137,11 @@ function markAll() {
     when clicked upon. */
 
     for (let i = 0; i < elems.length; i++) {
+        /* It could be nice to make this loop asynchronous - probably something like,
+        use the loop to predefine all the mark functions (with stored element,
+        generation and state) in an array, then give that array to Promise.all(). But
+        performance does not seem to demand it at the minute. See:
+        https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#combining_multiple_promises */
         elems[i].addEventListener('click', function () {
             clickState = localStorage.getItem("shiny ".concat(this.alt));
             gen = this.parentElement.classList[1];
