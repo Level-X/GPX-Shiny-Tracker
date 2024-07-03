@@ -4,63 +4,69 @@ body {
     margin: 0;
     padding: 0;
 
-    /* Start of Font */
-    font-family: calibri;
-    font-size: 11px;
-    color: white;
-    /* End */
-
-    /* Start of Background */
-    background-image: url(https://i.imgur.com/iyIkF1t.png);
+    /* Main background. */
+    background-color: #141414;
+    background-image: url(https://i.imgur.com/OlJHXya.png);
     background-repeat: repeat;
     /* End */
 
-    /* Start of Scrollbar */
+    /* Scrollbar design. */
     scrollbar-color: #424242 #262626;
     scrollbar-width: thin;
     /* End */
-}
 
-
-
-/* Start of URL */
-a {
+    /* Font design. */
+    font-family: calibri;
+    font-size: 14px;
     color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
+    /* End */
 
-a:hover {
-    text-decoration: underline;
-}
+    /* URL design. */
+    a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
 
+    a:hover {
+        text-decoration: underline;
+    }
+}
 /* End */
 
 
 
-/* These are different Sectors in the HTML Code - Not really neccessary to edit unless you know what you're doing. */
+/* Top section - Banner and Navigation section. */
 header {
     padding: 50px 0px;
     text-align: center;
 }
+/* End */
 
+/* Middle section - Container that holds the PC Icons. */
 main {
-    margin: auto;
-    /* Edit this if you want to change the overall width of each Region section. (The box that holds the Pokémon Icons) */
-    width: 75%;
+    float: right;
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
+/* End */
 
+/* End section - Notes. */
 footer {
     clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: static;
+    position: relative;
     bottom: 0;
     width: 100%;
+    height: 120px;
     margin-top: 2%;
     padding: 0.5% 0%;
-    background: #343434;
+    background: #2b2f30;
+    border-top: 1px solid black;
     text-align: center;
 }
 
@@ -75,73 +81,100 @@ footer img.right {
     height: 16px;
     margin-left: 30px;
 }
-
 /* End */
 
 
 
-/* Start of Region quick links above each Region section - Not really neccessary to edit unless you know what you're doing. */
-ul.quickjump {
-    margin: 0%;
-    margin-bottom: 2px;
-    padding-left: 2px;
-    list-style: none;
-}
-
-ul.quickjump li {
-    display: inline-block;
-}
-
-ul.quickjump li::after {
-    content: "|";
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-ul.quickjump li:last-child::after {
-    display: none;
-}
-
-/* End */
-
-
-
-/* This is the section that contains the Pokémon Icons. Category is the black bar with Region name. Content is the box that contains the Icons. */
-div.category {
+/* Category - The black bar that is displayed above content boxes. */
+div.head {
     background: black;
-    border: 1px solid black;
-    border-top: 0px;
-    border-bottom: 0px;
     font-weight: bold;
     text-align: center;
+border: 0;
 }
+/* End */
 
-section.content {
+/* Content - The box that is displayed under the category name. */
+div.body {
     margin-bottom: 2%;
     padding: 10px 0px;
-    background: #2b2f30;
+    background: #222526;
     border: 1px solid black;
-    border-top: 0px;
+    border-top: 0;
     text-align: center;
 }
-
 /* End */
 
-
-
-/* Font that says Box # */
-p.box {
-    margin: 0px;
-    margin-left: 20px;
+/* Mini Category - The grey bar that displays the PC Box Number. */
+div.subtitle {
+    width: 100px;
+    margin-bottom: 5px;
+    background: #0c0e0e;
     font-weight: bold;
+    border: 1px solid black;
+    border-left: 0;
+}
+/* End */
+
+/* Quick Jump Menu.*/
+nav.menu {
+    float: left;
+    position: fixed;
+    width: 15%;
+    margin-left: 1%;
+    top: 10%;
     text-align: left;
 }
 
+nav.menu ul {
+    margin: 0;
+    padding: 10px 30px;
+    background: #2b2f30;
+    list-style-image: url(https://i.imgur.com/YAnVf5t.png);
+    border: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+nav.menu ul:last-child {
+    border-bottom: 1px solid black;
+}
+
+nav.menu li {
+    padding: 2px 2px 2px 0;
+}
+/* End */
+
+/* Progress Bar Display */
+progress {
+    height: 6px;
+    width: 100%;
+    background-color: #D4D4D4;
+    border: 1px solid black;
+    margin-bottom: 8px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #2A9200;
+}
+
+/* Firefox */
+progress::-webkit-progress-bar {
+    height: 6px;
+    width: 100%;
+    background-color: #D4D4D4;
+    border-bottom: 1px solid black;
+}
+
+/* Edge/Chrome */
+progress::-webkit-progress-value {
+    background-color: #2A9200;
+}
 /* End */
 
 
 
-/* Start of Icon opacity */
+/* PC Box Icon opacity */
 img.own {
     opacity: 1.0;
 }
@@ -153,12 +186,9 @@ img.notown {
 img.notown:hover {
     opacity: 1.0;
 }
-
 /* End */
 
-
-
-/* Start of Info box when hovering over Icons */
+/* PC Box Info - Displays when hovering over Icons */
 div.pkmn:hover {
     -webkit-box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.59);
     box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.59);
@@ -199,52 +229,9 @@ span.info p.form {
     font-style: italic;
     font-weight: 100;
 }
-
 /* End */
 
-
-
-/* Progress Bar Display */
-label {
-    font-weight: bold;
-}
-
-label::before {
-    content: "\a";
-    white-space: pre;
-}
-
-progress {
-    height: 6px;
-    width: 100%;
-    background-color: #D4D4D4;
-    border: 1px solid black;
-    border-left: 0px;
-    border-right: 0px;
-}
-
-progress::-moz-progress-bar {
-    background-color: #2A9200;
-}
-
-/* Firefox */
-progress::-webkit-progress-bar {
-    height: 6px;
-    width: 100%;
-    background-color: #D4D4D4;
-    border-bottom: 1px solid black;
-}
-
-/* Edge/Chrome */
-progress::-webkit-progress-value {
-    background-color: #2A9200;
-}
-
-/* End */
-
-
-
-/* Icons for genders. - No need to edit. */
+/* Icons for genders differences. */
 div.male,
 div.female {
     max-width: 7px;
@@ -262,12 +249,9 @@ div.male {
 div.female {
     background-image: url(https://i.imgur.com/mkE5Iy2.png);
 }
-
 /* End */
 
-
-
-/* Icons for types. - No need to edit. */
+/* Icons for types.*/
 div.normal,
 div.fighting,
 div.flying,
@@ -370,37 +354,54 @@ div.fairy {
 div.bird {
     background-image: url(https://i.imgur.com/MetWrKP.png);
 }
-
 /* End */
 
 
 
+
+
 /* Below CSS is for the"Getting Started" HTML page. Feel free to ignore this. */
-a.download {
-    font-size: large;
-    text-decoration: underline;
+div.head-small {
+    margin: auto;
+    width: 90%;
+    background: black;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
 }
 
-ul.quickjumpGS {
+div.body-small {
     margin: auto;
-    margin-top: 40px;
-    padding: 0px;
-    list-style: none;
+    width: 90%;
+    margin-bottom: 2%;
+    padding: 10px 0px;
+    background: #2b2f30;
+    border: 1px solid black;
+    border-top: 0;
     text-align: center;
 }
 
-ul.quickjumpGS li {
-    display: inline-block;
+details {
+    margin: auto;
+    margin-bottom: 2%;
+    text-align: center;
 }
 
-ul.quickjumpGS li::after {
-    content: "|";
-    padding-left: 10px;
-    padding-right: 10px;
+summary {
+    margin: auto;
+    width: 90%;
+    background: black;
+    border: 1px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
 }
 
-ul.quickjumpGS li:last-child::after {
-    display: none;
+a.download {
+    font-size: large;
+    text-decoration: underline;
 }
 
 p.GS {
@@ -440,58 +441,21 @@ ul.GS2 li {
 
 img.GS {
     border: 1px solid black;
+    width: 95%;
 }
 
 img.GS2 {
+    border: 1px solid black;
+    width: 60%;
+}
+
+img.GS3 {
+    border: 1px solid black;
+    width: 20%;
+}
+
+img.GS4 {
     padding-left: 10px;
     padding-bottom: 10px;
 }
-
-div.categoryGS {
-    margin: auto;
-    width: 90%;
-    background: black;
-    border: 1px solid black;
-    border-top: 0px;
-    border-bottom: 0px;
-    font-weight: bold;
-    text-align: center;
-}
-
-div.GS-Area {
-    width: 100px;
-    background: black;
-    font-weight: bold;
-    text-align: center;
-}
-
-section.contentGS {
-    margin: auto;
-    width: 90%;
-    margin-bottom: 2%;
-    padding: 10px 0px;
-    background: #404040;
-    border: 1px solid black;
-    border-top: 0px;
-    text-align: center;
-}
-
-details {
-    margin: auto;
-    margin-bottom: 2%;
-    text-align: center;
-}
-
-summary {
-    margin: auto;
-    width: 90%;
-    background: black;
-    border: 1px solid black;
-    border-top: 0px;
-    border-bottom: 0px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
-
 /* End */
