@@ -6,7 +6,7 @@ body {
 
     /* Main background. */
     background-color: #141414;
-    background-image: url(https://i.imgur.com/OlJHXya.png);
+    background-image: url(Images/Main/Background.png);
     background-repeat: repeat;
     /* End */
 
@@ -62,9 +62,9 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 120px;
+    height: 70px;
     margin-top: 2%;
-    padding: 0.5% 0%;
+    padding: 1.5% 0%;
     background: #2b2f30;
     border-top: 1px solid black;
     text-align: center;
@@ -130,7 +130,7 @@ nav.menu ul {
     margin: 0;
     padding: 10px 30px;
     background: #2b2f30;
-    list-style-image: url(https://i.imgur.com/YAnVf5t.png);
+    list-style-image: url(Images/Main/Menu.png);
     border: 1px solid black;
     border-top: 0;
     border-bottom: 0;
@@ -201,7 +201,7 @@ div.pkmn {
 
 div.pkmn span.info {
     visibility: hidden;
-    width: 110px;
+    width: 170px;
     padding: 4px 0;
     background-color: rgb(31, 31, 31);
     border: 1px solid black;
@@ -243,11 +243,11 @@ div.female {
 }
 
 div.male {
-    background-image: url(https://i.imgur.com/fWGLGPg.png);
+    background-image: url(Images/Pokémon-Info/Male.png);
 }
 
 div.female {
-    background-image: url(https://i.imgur.com/mkE5Iy2.png);
+    background-image: url(Images/Pokémon-Info/Female.png);
 }
 /* End */
 
@@ -280,79 +280,79 @@ div.bird {
 }
 
 div.normal {
-    background-image: url(https://i.imgur.com/QaahcOB.png);
+    background-image: url(Images/Pokémon-Info/Normal.png);
 }
 
 div.fighting {
-    background-image: url(https://i.imgur.com/npyfkah.png);
+    background-image: url(Images/Pokémon-Info/Fighting.png);
 }
 
 div.flying {
-    background-image: url(https://i.imgur.com/JVCqa9m.png);
+    background-image: url(Images/Pokémon-Info/Flying.png);
 }
 
 div.poison {
-    background-image: url(https://i.imgur.com/9Vwi8Sb.png);
+    background-image: url(Images/Pokémon-Info/Poison.png);
 }
 
 div.ground {
-    background-image: url(https://i.imgur.com/2vvE0AW.png);
+    background-image: url(Images/Pokémon-Info/Ground.png);
 }
 
 div.rock {
-    background-image: url(https://i.imgur.com/f7JsAm0.png);
+    background-image: url(Images/Pokémon-Info/Rock.png);
 }
 
 div.bug {
-    background-image: url(https://i.imgur.com/jDbkdxe.png);
+    background-image: url(Images/Pokémon-Info/Bug.png);
 }
 
 div.ghost {
-    background-image: url(https://i.imgur.com/xoLmyQa.png);
+    background-image: url(Images/Pokémon-Info/Ghost.png);
 }
 
 div.steel {
-    background-image: url(https://i.imgur.com/OBjB4hY.png);
+    background-image: url(Images/Pokémon-Info/Steel.png);
 }
 
 div.fire {
-    background-image: url(https://i.imgur.com/73lLzOd.png);
+    background-image: url(Images/Pokémon-Info/Fire.png);
 }
 
 div.water {
-    background-image: url(https://i.imgur.com/a3DxUpg.png);
+    background-image: url(Images/Pokémon-Info/Water.png);
 }
 
 div.grass {
-    background-image: url(https://i.imgur.com/cclVgAS.png);
+    background-image: url(Images/Pokémon-Info/Grass.png);
 }
 
 div.electric {
-    background-image: url(https://i.imgur.com/ihTj8p2.png);
+    background-image: url(Images/Pokémon-Info/Electric.png);
 }
 
 div.psychic {
-    background-image: url(https://i.imgur.com/ttStBNv.png);
+    background-image: url(Images/Pokémon-Info/Psychic.png);
 }
 
 div.ice {
-    background-image: url(https://i.imgur.com/hsdAAgJ.png);
+    background-image: url(Images/Pokémon-Info/Ice.png);
 }
 
 div.dragon {
-    background-image: url(https://i.imgur.com/oLjDOzO.png);
+    background-image: url(Images/Pokémon-Info/Dragon.png);
 }
 
 div.dark {
-    background-image: url(https://i.imgur.com/s5M7HpF.png);
+    background-image: url(Images/Pokémon-Info/Dark.png);
 }
 
 div.fairy {
-    background-image: url(https://i.imgur.com/XS8m0fV.png);
+    background-image: url(Images/Pokémon-Info/Fairy.png);
 }
 
 div.bird {
-    background-image: url(https://i.imgur.com/MetWrKP.png);
+    background-image: url(Images/Pokémon-Info/Bird.png);
 }
 /* End */
 
@@ -406,6 +406,7 @@ a.download {
 
 p.GS {
     font-weight: bolder;
+    padding: 0px 50px;
 }
 
 ul.GS,
@@ -429,12 +430,13 @@ ul.GS2 li::before {
 
 ul.GS p {
     margin: 0px;
+    padding: 0px 70px 20px;
     padding-bottom: 20px;
     font-style: italic;
 }
 
 ul.GS2 li {
-    padding: 3px 0px;
+    padding: 3px 100px;
     font-weight: lighter;
     margin-bottom: 7px;
 }
