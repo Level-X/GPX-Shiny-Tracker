@@ -1,53 +1,91 @@
-# GPX+ Shiny Tracker [v3.1.1]
-<p align="center"><img src="https://i.imgur.com/N2TNiFw.png"></p>
+# GPX+ Shiny Tracker [v4.0]
+<p align="center"><img src="https://i.imgur.com/MbKqZpO.png"></p>
 
 
   
 # Downloads
-<p align="center">The latest version of the tracker (currently v3.1.1) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
+<p align="center">The latest version of the tracker (currently v4.0) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 <p align="center"><b>It is always recommended that you download the current, most up-to-date version.</b></p>
 
 
 
 # Changelog
-<h1 align="center">Current - v3.1.1</h1>
-<h4>HTML:</h4>
-- <i>Getting Started: Added v3.1.1 changes.</i><br>
-- <i>Banner updated to v3.1.1.</i><br>
-- <i>Added gender information for Santa Hariyama and Mrs. Hariyama on the base Shiny Tracker.</i><br>
-- <i>Added updated icons for Castform [Sunny], Castform [Rainy], and Castform [Snowy].</i><br>
-- <i>Added icons for Kubfu, Urshifu [Single Strike], Urshifu [Rapid Strike], Basculin [White-Striped], and Basculegion (Male/Female).</i><br>
-- <i>Incremented version number.</i></p>
+<h1 align="center">Current - v4.0</h1>
+<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b>
+<h4>Everything:</h4>
+<b>On December 31, 2024 old icons that are hosted on Imgur will become inaccessible so please update before then so your Tracker doesn't lose all image access.</b><br><br>
+- <i>Images are no longer using an Imgur link, they now are local like the other files which makes the page load much quicker.</i><br>
+- <i>Changed the main background image and colors.</i><br>
+- <i>Text font has been enlarged.</i><br>
+- <i>A navigation menu was introduced that follows you as you scroll the page. It now hosts the links from the previous Quick Jump Menu.</i><br>
+- <i>A small Poké Ball icon has been added in front of each link in the new navigation menu.</i><br>
+- <i>Added a border on the top of the Footer.</i><br>
+- <i>Reduced the size of the Footer.</i><br>
+- <i>Fixed various small errors.</i><br>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Changed the file name for the Standard Tracker.</i><br>
+- <i>Adjusted the titles of Trackers.</i><br>
+- <i>Banner text changed and updated to version 4.0.</i><br>
+- <i>Placeholder data is no longer counted towards completion progress.</i><br>
+- <i>The Pokémon hover information box width has been expanded due to larger text font.</i><br>
+- <i>Added icons for Gigantamax Venusaur, Gigantamax Charizard, Gigantamax Blastoise, Gigantamax Butterfree, Gigantamax Pikachu, Gigantamax Meowth, Gigantamax Machamp, Gigantamax Gengar, Gigantamax Kingler, Hisuian Voltorb, Hisuian Electrode, Gigantamax Lapras, Gigantamax Eevee, Gigantamax Snorlax, Galarian Articuno, Galarian Zapdos, Galarian Moltres, Paldean Wooper, Hisuian Qwilfish, Hisuian Lilligant, Gigantamax Garbodor, Hisuian Zorua, Hisuian Zoroark, Hisuian Braviary, Hisuian Sliggoo, Hisuian Goodra, Necrozma [Ultra Burst], Gigantamax Melmetal, Gigantamax Rillaboom, Gigantamax Cinderace, Gigantamax Inteleon, Gigantamax Corviknight, Gigantamax Orbeetle, Gigantamax Drednaw, Gigantamax Coalossal, Gigantamax Flapple, Gigantamax Appletun, Gigantamax Sandaconda, Cramorant [Gulping], Cramorant [Gorging], Gigantamax Toxtricity, Gigantamax Centiskorch, Gigantamax Hatterene, Gigantamax Grimmsnarl, Milcery, Alcremie [Strawberry], Alcremie [Berry], Alcremie [Love], Alcremie [Star], Alcremie [Clover], Alcremie [Flower], Alcremie [Ribbon], Gigantamax Alcremie, Eiscue [Noice Face], Gigantamax Copperajah, Gigantamax Duraludon, Eternamax Eternatus, Gigantamax Urshifu [Single Strike Style], Gigantamax Urshifu [Rapid Strike Style], Regieleki, Regidrago, Overqwil, Fuecoco, Crocalor, Skeledirge, Lechonk, Oinkologne (Male/Female), Tarountula, Spidops, Pawmi, Pawmo, Pawmot, Clodsire, Dipplin, and Hydrapple.</i><br>
+- <i>Removed unneeded placeholder data.</i><br>
+- <i>Added placeholder data for Pokémon introduced in Scarlet and Violet: The Indigo Disk.</i><br>
+- <i>Added a background to the PC Box number display.</i><br>
+- <i>The completion progress bars of all Generations have been placed inside of the new navigation menu.</i><br>
+- <i>Each Generation now connects together instead of being separate. This allows for max efficiency of the PC Box space you have.</i><br>
+- <i>The PC Box number is now continuous, it no longer resets per Generation.</i><br>
+<h4>Getting Started:</h4>
+- <i>Added version 4.0 changes.</i><br>
+- <i>Refined information in various sections.</i></p>
 
 
 
 <br><br><br>
 <h1 align="center">Old Changes</h1>
+<h2 align="center">v3.1.1</h2>
+<h4>Everything:</h4>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Banner updated to v3.1.1.</i><br>
+- <i>Added gender information for Santa Hariyama and Mrs. Hariyama.</i><br>
+- <i>Added updated icons for Castform [Sunny], Castform [Rainy], and Castform [Snowy].</i><br>
+- <i>Added icons for Kubfu, Urshifu [Single Strike], Urshifu [Rapid Strike], Basculin [White-Striped], and Basculegion (Male/Female).</i><br>
+<h4>Getting Started:</h4>
+- <i>Added v3.1.1 changes.</i></p>
+
+
 <h2 align="center">v3.1</h2>
-<h4>HTML:</h4>
-- <i>Getting Started: Fixed many display problems.</i><br>
-- <i>Getting Started: Added v3.1 changes.</i><br>
-- <i>Tracker Ultimate: The hover information box has been updated to include Gender information for select Pokémon.</i><br>
-- <i>Banner updated to v3.1.</i><br>
-- <i>Updated the Footer.</i><br>
+<b>Two file types (HTML and CSS) have had changes to them and require the same version (v3.1) of the files to cooperate properly.</b>
+<h4>Everything:</h4>
 - <i>Resized the main content section.</i><br>
-- <i>Fixed icons for Rillaboom, Sinistea, and Polteageist.</i><br>
+- <i>Updated the Footer.</i><br>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Banner updated to v3.1.</i><br>
 - <i>Added in Pokémon data for Pokémon introduced in Scarlet and Violet and The Teal Mask DLC.</i><br>
+- <i>Fixed icons for Rillaboom, Sinistea, and Polteageist.</i><br>
 - <i>The Pokémon hover information box width has been expanded due to longer names introduced in Pokémon Scarlet and Violet.</i><br>
 - <i>Added more spacing for Generations with multiple regions in the Quick Link sections.</i><br>
 - <i>Changed display to show two rows of Pokémon per box instead of one row.</i><br>
 - <i>Added icons for Galarian Meowth, Galarian Slowpoke, Galarian Slowbro, Galarian Farfetch'd, Galarian Slowking, Solgaleo [Radiant Sun], Lunala [Full Moon], Chewtle, Drednaw, Arrokuda, Barraskewda, Perrserker, Sirfetch'd, Indeedee (Male/Female), Dreepy, Drakloak, Dragapult, Eternatus, Sprigatito, Floragato, and Meowscarada.</i><br>
-- <i>Incremented version number.</i><br>
-<h4>CSS:</h4>
-- <i>Added and removed code to fix problems on the Getting Started page.</i></p>
-
+<h4>Tracker Ultimate:</h4>
+- <i>The hover information box has been updated to include Gender information for select Pokémon.</i><br>
+<h4>Getting Started:</h4>
+- <i>Added v3.1 changes.</i><br>
+- <i>Fixed many display problems.</i></p>
 
 
 <h2 align="center">v3.0</h2>
-<h4>HTML:</h4>
-- <i>HTML file named from "GPX+ Shinies" to "GPX+ Shiny Tracker".</i><br>
+<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v3.0) of the files to cooperate properly.</b>
+<h4>Everything:</h4>
+- <i>All files have been renamed. New names are: "GPX+ Shiny Tracker", "GPX+ Shiny Tracker Ultimate", "Style", and "Script-ClickProgress".</i><br>
 - <i>The Favicon has been updated.</i><br>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Created a Getting Started HTML file that details all information about the project.</i><br>
 - <i>Banner updated and now includes version number.</i><br>
 - <i>Quick Jump links have been updated to be more visually appealing.</i><br>
 - <i>Quick Jump links ID names have been changed from Region to Generation.</i><br>
@@ -61,94 +99,72 @@
 - <i>Hovering over a Pokémon now displays a pop-up box that includes their Pokédex number, name, form, and typing.</i><br>
 - <i>Because of this new feature the (title="") HTML code has been replaced with "alt". If a icon has trouble loading it will now display the Pokémon's name instead of the icon.</i><br>
 - <i>The Progress Bar now fully stretches the entire Region section.</i><br>
-- <i>The GPX+ Shiny Tracker now doesn't include any gendered difference, it now works like the GPX+ Pokédex. Removed duplicate icons include:
-Hippopotas, Hippowdon, Unfezant, Frillish, Jellicent, Pyroar, Espurr, Indeedee, Basculegion, Noctowl [Curator], and Autumn Tropius.</i><br>
+- <i>The GPX+ Shiny Tracker now doesn't include any gendered difference, it now works like the GPX+ Pokédex. Removed duplicate icons include: Hippopotas, Hippowdon, Unfezant, Frillish, Jellicent, Pyroar, Espurr, Indeedee, Basculegion, Noctowl [Curator], and Autumn Tropius.</i><br>
 - <i>Fixed an error which caused Eiscue's [Ice Face] icon not to display from v2.5.</i><br>
 - <i>Fixed "class" duplication code for Present Drifloon.</i><br>
 - <i>Porygon-T's position has been fixed.</i><br>
-- <i>GPX+ Shinies (Gender Differences) HTML file has been re-created to be GPX+ Shiny Tracker Ultimate.</i><br>
-- <i>Added appropriate gender symbols to Pokémon with gender differences on GPX+ Shiny Tracker Ultimate.</i><br>
-- <i>Fixed transparency issues for Gengar [Mega], Magikarp, Corsola, Corsola [Galarian], Remoraid, Skorupi, Snover, Serperior,
-Tepig, Pignite, Emboar, Dewott, Samurott, Hisuian Samurott, Lillipup, Herdier, Stoutland, Purrloin, Liepard, Simisear, Simipour, Tranquill, Unfezant [Male],
-Unfezant [Female], Audino, Leavanny, Maractus, Scrafty, Cinccino, Gothitelle, Sawsbuck [Spring], Escavalier, Amoonguss, Frillish [Male], Jellicent [Male], Mienshao,
-Pawniard, Bisharp, Braviary, Durant, Zweilous, Volcarona, Cobalion, Virizion, Tornadus [Incarnate], Thundurus [Incarnate], Reshiram, Landorus [Incarnate], Kyurem,
-Meloetta [Aria], Meloetta [Pirouette], Florges [Orange Flower], Florges [Blue Flower], and Snowy Girafarig.</i><br>
+- <i>Fixed transparency issues for Gengar [Mega], Magikarp, Corsola, Corsola [Galarian], Remoraid, Skorupi, Snover, Serperior, Tepig, Pignite, Emboar, Dewott, Samurott, Hisuian Samurott, Lillipup, Herdier, Stoutland, Purrloin, Liepard, Simisear, Simipour, Tranquill, Unfezant [Male], Unfezant [Female], Audino, Leavanny, Maractus, Scrafty, Cinccino, Gothitelle, Sawsbuck [Spring], Escavalier, Amoonguss, Frillish [Male], Jellicent [Male], Mienshao, Pawniard, Bisharp, Braviary, Durant, Zweilous, Volcarona, Cobalion, Virizion, Tornadus [Incarnate], Thundurus [Incarnate], Reshiram, Landorus [Incarnate], Kyurem, Meloetta [Aria], Meloetta [Pirouette], Florges [Orange Flower], Florges [Blue Flower], and Snowy Girafarig.</i><br>
 - <i>Added a contributor section and the GPX+ Shiny Tracker Forum thread in the Footer.</i><br>
-- <i>Added a few notes in the HTML files to better guide you.</i><br>
-- <i>Created a Getting Started HTML file that details all information about the project.</i><br>
-- <i>Incremented version number.</i></p>
-<h4>CSS:</h4>
-- <i>CSS File renamed to "Style".</i><br>
-- <i>Added more CSS for new additions added to HTML files.</i><br>
-- <i>Added a few notes in the CSS file to better guide you.</i><br>
-- <i>Formatted the file properly.</i></p>
-<h4>JavaScript:</h4>
-- <i>JavaScript File renamed to "Script-ClickProgress".</i><br>
-- <i>Parts of the code changed to work with new HTML ID changes.</i></p>
-
+- <i>Added a few notes in the HTML and CSS files to better guide you.</i><br>
+<h4>Tracker Ultimate:</h4>
+- <i>Added appropriate gender symbols to Pokémon with gender differences on GPX+ Shiny Tracker Ultimate.</i></p>
 
 
 <h2 align="center">v2.5</h2>
-<h4>HTML:</h4>
+<h4>Shiny Trackers:</h4>
 - <i>Added icons for Hisuian Typhlosion, Hisuian Samurott, Hisuian Decidueye, and Eiscue [Ice].</i><br>
-- <i>Added placeholder icons for the 25 other Pokémon introduced in Pokémon Legends: Arceus.</i><br>
+- <i>Added placeholder icons for Pokémon introduced in Pokémon Legends: Arceus.</i><br>
 - <i>Fixed placement of Missingno.</i><br>
 - <i>Incremented version number.</i></p>
 
 
-
 <h2 align="center">v2.4</h2>
-<h4>HTML:</h4>
+<h4>Shiny Trackers:</h4>
 - <i>Added icons for Impidimp, Morgrem, Grimmsnarl, Glastrier, Spectrier, and Nihilego [Parasite].</i><br>
 - <i>Incremented version number.</i></p>
 
 
-
 <h2 align="center">v2.3</h2>
-<h4>HTML:</h4>
-- <i>Changed various positions of HTML.</i><br>
+<b>Two file types (HTML and CSS) have had changes to them and require the same version (v2.2) of the files to cooperate properly.</b>
+<h4>Shiny Trackers:</h4>
 - <i>Added icons for Silicobra, Sandaconda, Rolycoly, Carkol, Coalossal, Cufant, Copperajah, Galarian Yamask, Runerigus, Sizzlipede, and Centiskorch.</i><br>
 - <i>Fixed typo for Eiscue [Noice] form.</i><br>
-- <i>Fixed positioning of Porygon-T and Cherrim [Frost]</i><br>
-- <i>Incremented version number.</i></p>
-<h4>CSS:</h4>
+- <i>Fixed positioning of Porygon-T and Cherrim [Frost].</i><br>
+- <i>Changed various positions of HTML.</i><br>
 - <i>Fixed centering issues.</i><br>
-- <i>Added progress bar CSS for both Chrome and Firefox.</i></p>
-
+- <i>Added progress bar CSS for both Chrome and Firefox.</i><br>
+- <i>Incremented version number.</i></p>
 
 
 <h2 align="center">v2.2</h2>
+<b>Two file types (HTML and CSS) have had changes to them and require the same version (v2.2) of the files to cooperate properly.</b>
+<h4>Shiny Tracker:</h4>
+- <i>Added icons for Nickit, Thievul, Clobbopus, and Grapploct.</i><br>
+- <i>Changed various positions of HTML.</i><br>
+- <i>Minor adjustment to fix a centering issue that could occur within the progress bar.</i><br>
+- <i>Incremented version number.</i></p>
 <p align="center"><i>Alternative tracker that includes all gender differences introduced thanks to Rookie Roo!<br>
 (If you wish to use this version simply drag the file out of the "Alternative Trackers" into the main folder with all the other files, otherwise the CSS won't load.)</i></p>
-<h4>HTML:</h4>
-- <i>Changed various positions of HTML.</i><br>
-- <i>Added icons for Nickit, Thievul, Clobbopus, and Grapploct.</i><br>
-- <i>Incremented version number.</i></p>
-<h4>CSS:</h4>
-- <i>Minor adjustment to fix a centering issue that could occur within the progress bar.</i></p>
-
 
 
 <h2 align="center">v2.1</h2>
-<h4>HTML:</h4>
+<b>Two file types (HTML and JavaScript) have had changes to them and require the same version (v2.1) of the files to cooperate properly.</b>
+<h4>Shiny Tracker:</h4>
 - <i>Added metadata.</i><br>
-- <i>Incremented version number.</i></p>
-<h4>JavaScript:</h4>
+- <i>Incremented version number.</i><br>
 - <i>Fixed incorrect retrieval of "notown" state.</i></p>
-
 
   
 <h2 align="center">v2.0</h2>
-<h4>HTML:</h4>
+<b>All file types (HTML and CSS) have had changes to them and require the same version (v2.0) of the files to cooperate properly.</b>
+<h4>Shiny Tracker:</h4>
 - <i>Added Javascript functionality.</i><br>
-- <i>Added "Back to top" link.</i><br>
-- <i>Changed ownership from IDs to Class.</i><br>
-- <i>Updated Footer to include version number and source.</i></p>
-<h4>CSS:</h4>
 - <i>Changed formatting.</i><br>
-- <i>Tweaked opacity.</i></p>
-
+- <i>Added "Back to top" link to the Quick Jump Menu.</i><br>
+- <i>Changed ownership from IDs to Class.</i></br>
+- <i>Tweaked opacity for Pokémon Icons.</i><br>
+- <i>Updated Footer to include version number and source.</i></p>
 
 
 <h2 align="center">v1.0</h2>
-- <i>Released.</i>
+- <i>Project launched.</i>
