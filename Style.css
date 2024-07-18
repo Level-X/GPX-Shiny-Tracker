@@ -34,6 +34,17 @@ body {
 }
 /* End */
 
+    /* List design. */
+ul.list {
+    list-style-image: url(Images/Main/Menu.png);
+    text-align: left;
+}
+
+ul.list li {
+    padding: 2px 0px;
+}
+/* End */
+
 
 
 /* Top section - Banner and Navigation section. */
@@ -90,7 +101,7 @@ div.head {
     background: black;
     font-weight: bold;
     text-align: center;
-border: 0;
+    border: 0;
 }
 /* End */
 
@@ -199,7 +210,7 @@ div.pkmn {
     position: relative;
 }
 
-div.pkmn span.info {
+div.pkmn span.info, div.pkmn span.info-expand {
     visibility: hidden;
     width: 170px;
     padding: 4px 0;
@@ -213,17 +224,21 @@ div.pkmn span.info {
     margin-left: -50px;
 }
 
-div.pkmn:hover span.info {
+div.pkmn span.info-expand {
+    width: 260px;
+}
+
+div.pkmn:hover span.info, div.pkmn:hover span.info-expand {
     visibility: visible;
 }
 
-span.info p {
+span.info p, span.info-expand p {
     margin: 0;
     padding-bottom: 4px;
     font-weight: bold;
 }
 
-span.info p.form {
+span.info p.form, span.info-expand p.form {
     margin: 0;
     padding-bottom: 4px;
     font-style: italic;
