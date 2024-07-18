@@ -1,18 +1,39 @@
 # GPX+ Shiny Tracker [v4.0]
-<p align="center"><img src="https://i.imgur.com/MbKqZpO.png"></p>
+<p align="center"><img src="https://i.imgur.com/LuYrSUq.png"></p>
 
 
   
 # Downloads
-<p align="center">The latest version of the tracker (currently v4.0) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
+<p align="center">The latest version of the tracker (currently v4.1) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 <p align="center"><b>It is always recommended that you download the current, most up-to-date version.</b></p>
 
 
 
 # Changelog
-<h1 align="center">Current - v4.0</h1>
+<h1 align="center">Current - v4.1</h1>
+<b>Two file types (HTML and CSS) have had changes to them and require the same version (v4.1) of the files to cooperate properly.</b><br>
+<b>A new alternative tracker, the Minimalist Edition, has been introduced thanks to help from Rookie Roo and Isla de Monte Cristo!</b>
+<h4>Everything:</h4>
+- <i>Incremented version number.</i><br>
+- <i>Updated Footer.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Introduced the GPX+ Shiny Tracker Minimalist Edition.</i><br>
+- <i>Banners updated to v4.1</i><br>
+- <i>Renamed container for section that contains all Pokémon Icons.</i><br>
+- <i>Some Pokémon have had their order adjusted, these include: Burmy [Sandy Cloak], Wormadam [Sandy Cloak], Spiral Shellder, and Omastar [Orchid].</i><br>
+- <i>Added an Information section on each version of the Tracker that gives a rundown about it.</i><br>
+<h4>Everything:</h4>
+- <i>Added version 4.1 changes.</i><br>
+- <i>Added a link in the Navigation Menu to open up the Minimalist Edition of the Tracker.</i><br>
+- <i>Refined information in various sections.</i><br>
+- <i>Removed the Miscellaneous Q&A section.</i></p>
+
+
+<br><br><br>
+<h1 align="center">Old Changes</h1>
 <b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b>
+<h2 align="center">v3.1.1</h2>
 <h4>Everything:</h4>
 <b>On December 31, 2024 old icons that are hosted on Imgur will become inaccessible so please update before then so your Tracker doesn't lose all image access.</b><br><br>
 - <i>Images are no longer using an Imgur link, they now are local like the other files which makes the page load much quicker.</i><br>
@@ -42,9 +63,6 @@
 - <i>Refined information in various sections.</i></p>
 
 
-
-<br><br><br>
-<h1 align="center">Old Changes</h1>
 <h2 align="center">v3.1.1</h2>
 <h4>Everything:</h4>
 - <i>Incremented version number.</i><br>
