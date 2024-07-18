@@ -23,8 +23,8 @@
 - <i>Renamed container for section that contains all Pokémon Icons.</i><br>
 - <i>Some Pokémon have had their order adjusted, these include: Burmy [Sandy Cloak], Wormadam [Sandy Cloak], Spiral Shellder, and Omastar [Orchid].</i><br>
 - <i>Added an Information section on each version of the Tracker that gives a rundown about it.</i><br>
-<h4>Everything:</h4>
-- <i>Added version 4.1 changes.</i><br>
+<h4>Getting Started:</h4>
+- <i>Added v4.1 changes.</i><br>
 - <i>Added a link in the Navigation Menu to open up the Minimalist Edition of the Tracker.</i><br>
 - <i>Refined information in various sections.</i><br>
 - <i>Removed the Miscellaneous Q&A section.</i></p>
