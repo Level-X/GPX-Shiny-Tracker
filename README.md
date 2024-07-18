@@ -33,7 +33,7 @@
 <br><br><br>
 <h1 align="center">Old Changes</h1>
 <b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b>
-<h2 align="center">v3.1.1</h2>
+<h2 align="center">v4.0</h2>
 <h4>Everything:</h4>
 <b>On December 31, 2024 old icons that are hosted on Imgur will become inaccessible so please update before then so your Tracker doesn't lose all image access.</b><br><br>
 - <i>Images are no longer using an Imgur link, they now are local like the other files which makes the page load much quicker.</i><br>
