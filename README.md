@@ -59,7 +59,7 @@
 - <i>Each Generation now connects together instead of being separate. This allows for max efficiency of the PC Box space you have.</i><br>
 - <i>The PC Box number is now continuous, it no longer resets per Generation.</i><br>
 <h4>Getting Started:</h4>
-- <i>Added version 4.0 changes.</i><br>
+- <i>Added v4.0 changes.</i><br>
 - <i>Refined information in various sections.</i></p>
 
 
