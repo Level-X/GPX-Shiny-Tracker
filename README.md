@@ -1,4 +1,4 @@
-# GPX+ Shiny Tracker [v4.0]
+# GPX+ Shiny Tracker [v4.1]
 <p align="center"><img src="https://i.imgur.com/LuYrSUq.png"></p>
 
 
