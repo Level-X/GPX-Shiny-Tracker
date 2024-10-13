@@ -159,7 +159,7 @@ function markAll() {
         performance does not seem to demand it at the minute. See:
         https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#combining_multiple_promises */
         elems[i].addEventListener('click', (ev) => markThis(ev));
-        elems[i].addEventListener("keydown", function (ev) {
+        elems[i].addEventListener("keyup", function (ev) {
             if (ev.key === "Enter") {  //checks whether the pressed key is "Enter"
                 markThis(ev);
             }
