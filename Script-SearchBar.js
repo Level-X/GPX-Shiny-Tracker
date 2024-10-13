@@ -40,8 +40,7 @@ function addSearch() {
   searchBoxBox.setAttribute("placeholder", "Totodile");
   const searchBoxText = document.createElement("p");
   searchBoxText.classList.add("searchInfo");
-  searchBoxText.style = "display: none;";
-  let searchBoxTextText = document.createTextNode("");
+  let searchBoxTextText = document.createTextNode("Search forms with [], e.g. 'altaria [c'.");
   searchBoxText.appendChild(searchBoxTextText);
   const searchBoxButton = document.createElement("button");
   searchBoxButton.setAttribute("name", "searchb");
