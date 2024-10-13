@@ -192,7 +192,15 @@ nav.menu div.search {
     border: 1px solid black;
     border-top: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+p.searchInfo {
+    font-size: smaller;
+    text-align: center;
+    margin: 1ch 0 0;
+    width: 100%;
 }
 
 /* End */
@@ -207,10 +215,9 @@ img.notown {
     opacity: 0.3;
 }
 
-img.notown:hover,
-img.notown:focus {
+img.notown:hover {
     opacity: 1.0;
-}
+} /* Opacity still 0.3 when focused to provide a visual difference when searching. */
 /* End */
 
 /* PC Box Info - Displays when hovering over Icons */

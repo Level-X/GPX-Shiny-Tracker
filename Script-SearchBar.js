@@ -38,6 +38,11 @@ function addSearch() {
   searchBoxBox.setAttribute("type", "search");
   searchBoxBox.setAttribute("name", "searchv");
   searchBoxBox.setAttribute("placeholder", "Totodile");
+  const searchBoxText = document.createElement("p");
+  searchBoxText.classList.add("searchInfo");
+  searchBoxText.style = "display: none;";
+  let searchBoxTextText = document.createTextNode("");
+  searchBoxText.appendChild(searchBoxTextText);
   const searchBoxButton = document.createElement("button");
   searchBoxButton.setAttribute("name", "searchb");
   searchBoxButton.setAttribute("id", "searchButton");
@@ -45,10 +50,12 @@ function addSearch() {
   searchBoxButton.appendChild(searchBoxButtonText);
   searchBox.append(searchBoxBox);
   searchBox.append(searchBoxButton);
+  searchBox.append(searchBoxText);
   theNav.append(searchBox);
   // Add an anonymous function to the button's onclick attribute:
   searchBoxButton.onclick = () => {
-    let searchValue = document.getElementById("searchText").value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+    let uSearchValue = document.getElementById("searchText").value
+    let searchValue = uSearchValue.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
     // Get the search string we want to use, and normalise it.
     const searchTargets = Array.from(document.querySelectorAll('main img:not([src="Images/Pokémon/0.png"])'));
     // Get the list of all non-placeholder Pokémon, convert it to an array.
@@ -59,8 +66,11 @@ function addSearch() {
       /* Focus the searchTarget to highlight it as the search result.
       Don't scroll to it, because we want to do a nicer scroll ourselves with: */
       searchTarget.scrollIntoView({ behavior: "smooth", block: "center" });
+      searchBoxText.innerText = "Click the Pokémon to mark it as owned!"
+      searchBoxText.style = "display: initial; color: #fff;";
     } else {
-      console.log("Couldn't find a Pokémon whose alt started with", searchValue);
+      searchBoxText.innerText = "Couldn't find a name starting with '" + uSearchValue + "'!";
+      searchBoxText.style = "display: initial; color: #ff7c7c;";
     }
   }
 }
