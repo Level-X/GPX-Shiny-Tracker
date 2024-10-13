@@ -1,3 +1,5 @@
+// By Cycloneblaze.
+
 function countProgress(generation) {
     //TODO: can I change this from a switch to a function that takes the class as argument, and deduplicate? 
     console.log("generation was", generation)
