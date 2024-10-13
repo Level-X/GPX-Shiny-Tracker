@@ -73,4 +73,12 @@ function addSearch() {
       searchBoxText.style = "display: initial; color: #ff7c7c;";
     }
   }
+  // Add an event listener for the Enter key to the search box:
+  searchBoxBox.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.key === "Enter") {
+      // if we get it, click the Search button
+        searchBoxButton.click();
+    }
+  });
 }
