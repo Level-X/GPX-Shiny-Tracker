@@ -9,14 +9,17 @@
     <link rel="stylesheet" type="text/css" href="Style.css">
     <link rel="icon" href="Images/Main/Sparkles.png">
     <script src="Script-ClickProgress.js"></script>
+    <script defer src="Script-SearchBar.js"></script>
     <script>
-        window.onload = function () { markAll(); }
+        window.onload = function () { markAll(); addTabIndex(); addSearch(); }
     </script>
 </head>
 
 <body id="top">
     <header>
         <img src="Images/Main/Ultimate-Banner.png" alt="Tracker Version Banner">
+    </header>
+    <section class="sidebar">
         <nav class="menu">
             <div class="head">Navigation & Collection</div>
             <ul id="progressBars">
@@ -44,7 +47,7 @@
                 <progress value="0" max="237" title="0/237"></progress>
             </ul>
         </nav>
-    </header>
+    </section>
     <main id="mark"><!-- this <main> must contain no images other than Pokémon to be marked by JS! -->
         <div class="head">Information on the Ultimate Edition</div>
         <div class="body">
