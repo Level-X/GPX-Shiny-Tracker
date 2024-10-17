@@ -16,7 +16,7 @@ body {
         "sidebar header"
         "sidebar main"
         "footer footer";
-    grid-template-columns: 2fr 11fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 1fr auto;
 
     /* Main background. */
@@ -166,6 +166,24 @@ nav.menu ul:last-child {
 nav.menu li {
     padding: 2px 2px 2px 0;
 }
+
+/* Progress Bar styling for narrow screens */
+@media (width > 1366px) {
+    ul#progressBars {
+        display: grid;
+        grid-gap: 0 10px;
+        padding-right: 10px;
+    }
+    ul#progressBars li {
+        grid-column: 1;
+    }
+    ul#progressBars progress {
+        grid-column: 2;
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+}   
+
 /* End */
 
 /* Progress Bar Display */
