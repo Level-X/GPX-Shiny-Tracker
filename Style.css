@@ -1,18 +1,28 @@
-html,
+html {
+    /* Scrollbar design. */
+    scrollbar-color: #424242 #262626;
+    scrollbar-width: thin;
+    /* End */
+}
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
 
+    /* Page layout. */
+    display: grid;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 2fr 11fr;
+    grid-template-rows: auto 1fr auto;
+
     /* Main background. */
     background-color: #141414;
     background-image: url(Images/Main/Background.png);
     background-repeat: repeat;
-    /* End */
-
-    /* Scrollbar design. */
-    scrollbar-color: #424242 #262626;
-    scrollbar-width: thin;
     /* End */
 
     /* Font design. */
@@ -34,7 +44,7 @@ body {
 }
 /* End */
 
-    /* List design. */
+/* List design. */
 ul.list {
     list-style-image: url(Images/Main/Menu.png);
     text-align: left;
@@ -51,22 +61,23 @@ ul.list li {
 header {
     padding: 50px 0px;
     text-align: center;
+    grid-area: header;
 }
 /* End */
 
 /* Middle section - Container that holds the PC Icons. */
 main {
-    float: right;
-    width: 80%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
+    grid-area: main;
 }
 /* End */
 
 /* End section - Notes. */
 footer {
     clear: both;
+    grid-area: footer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,13 +139,14 @@ div.subtitle {
 /* End */
 
 /* Quick Jump Menu.*/
+section.sidebar {
+    grid-area: sidebar;
+}
+
 nav.menu {
-    float: left;
-    position: fixed;
-    width: 15%;
-    margin-left: 1%;
-    top: 10%;
-    text-align: left;
+	position: sticky;
+	margin-left: 2em;
+	top: 2em;
 }
 
 nav.menu ul {
@@ -194,6 +206,10 @@ nav.menu div.search {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+div.search input {
+    width: 70%;
 }
 
 p.searchInfo {
