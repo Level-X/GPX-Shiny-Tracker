@@ -65,7 +65,7 @@ function addSearch() {
       /* Focus the searchTarget to highlight it as the search result.
       Don't scroll to it, because we want to do a nicer scroll ourselves with: */
       searchTarget.scrollIntoView({ behavior: "smooth", block: "center" });
-      searchBoxText.innerText = "Click the Pokémon to mark it as owned!"
+      searchBoxText.innerText = "Click or press Enter to mark the Pokémon as owned!"
       searchBoxText.style = "display: initial; color: #fff;";
     } else {
       searchBoxText.innerText = "Couldn't find a name starting with '" + uSearchValue + "'!";
