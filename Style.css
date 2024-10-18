@@ -252,11 +252,20 @@ img.notown {
 img.notown:hover {
     opacity: 1.0;
 } /* Opacity still 0.3 when focused to provide a visual difference when searching. */
+
+main img.own:focus {
+    background-image: radial-gradient(closest-side, goldenrod, transparent);
+} 
+
+main img.notown:focus {
+    opacity: 1.0;
+    background-image: radial-gradient(closest-side, silver, transparent);
+} 
+
 /* End */
 
 /* PC Box Info - Displays when hovering over Icons */
-div.pkmn:hover,
-div.pkmn:focus-within {
+div.pkmn:hover {
     -webkit-box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.59);
     box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.59);
 }
@@ -284,8 +293,7 @@ div.pkmn span.info-expand {
     width: 260px;
 }
 
-div.pkmn:hover span.info, div.pkmn:hover span.info-expand,
-div.pkmn:focus-within span.info, div.pkmn:focus-within span.info-expand {
+div.pkmn:hover span.info, div.pkmn:hover span.info-expand {
     visibility: visible;
 }
 
