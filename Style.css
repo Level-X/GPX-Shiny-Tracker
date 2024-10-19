@@ -5,12 +5,11 @@ html {
     /* End */
 }
 
+   /* Page layout. */
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-
-    /* Page layout. */
     display: grid;
     grid-template-areas:
         "sidebar header"
@@ -138,6 +137,8 @@ div.subtitle {
 }
 /* End */
 
+
+
 /* Quick Jump Menu.*/
 section.sidebar {
     grid-area: sidebar;
@@ -166,6 +167,9 @@ nav.menu ul:last-child {
 nav.menu li {
     padding: 2px 2px 2px 0;
 }
+/* End */
+
+
 
 /* Progress Bar styling for narrow screens */
 @media (width > 1366px) {
@@ -183,7 +187,6 @@ nav.menu li {
         margin-bottom: 0;
     }
 }   
-
 /* End */
 
 /* Progress Bar Display */
@@ -214,6 +217,7 @@ progress::-webkit-progress-value {
 /* End */
 
 
+
 /* Search Bar display */
 nav.menu div.search {
     margin: 0;
@@ -236,8 +240,8 @@ p.searchInfo {
     margin: 1ch 0 0;
     width: 100%;
 }
-
 /* End */
+
 
 
 /* PC Box Icon opacity */
@@ -261,7 +265,6 @@ main img.notown:focus {
     opacity: 1.0;
     background-image: radial-gradient(closest-side, silver, transparent);
 } 
-
 /* End */
 
 /* PC Box Info - Displays when hovering over Icons */
