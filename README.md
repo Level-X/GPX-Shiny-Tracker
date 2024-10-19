@@ -1,17 +1,36 @@
-# GPX+ Shiny Tracker [v4.1]
-<p align="center"><img src="https://i.imgur.com/LuYrSUq.png"></p>
+# GPX+ Shiny Tracker [v4.2]
+<p align="center"><img src="https://i.imgur.com/uPHKuMi.png"></p>
 
 
   
 # Downloads
-<p align="center">The latest version of the tracker (currently v4.1) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
+<p align="center">The latest version of the tracker (currently v4.2) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 <p align="center"><b>It is always recommended that you download the current, most up-to-date version.</b></p>
 
 
 
 # Changelog
-<h1 align="center">Current - v4.1</h1>
+<h1 align="center">Current - v4.2</h1>
+<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b><br>
+<h4>Everything:</h4>
+- <i>The size of the banner button in the Footer has been reduced.</i><br>
+- <i>The Navigation sections will now detect your screen size and shift it's appearance to fit it. Big thanks to Cycloneblaze!</i><br>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Banners updated to v4.2</i><br>
+- <i>The information section has had spelling and grammar errors fixed.</i><br>
+- <i>A search function was introduced! Big thanks to Cycloneblaze!</i><br>
+- <i>Added icons for Hisuian Growlithe, Hisuian Arcanine, Hisuian Avalugg, Dracozolt, Arctozolt, Dracovish, Arctovish, Zacian [Hero of Many Battles], Zacian [Crowned Sword], Zamazenta [Hero of Many Battles], Zamazenta [Crowned Sword], Wyrdeer, Kleavor, Ursaluna, Ursaluna [Bloodmoon], Quaxly, Quaxwell, Quaquaval, Fidough, Dachsbun, Squawkabilly [Green Plumage], Squawkabilly [Blue Plumage], Squawkabilly [Yellow Plumage], Squawkabilly [White Plumage], Maschiff, Mabosstiff, Cyclizar, Greavard, Houndstone, Flamigo, Veluza, Great Tusk, Scream Tail, Brute Bonnet, Flutter Mane, Slither Wing, Sandy Shocks, and Roaring Moon.</i><br>
+<h4>Getting Started:</h4>
+- <i>Added v4.2 changes.</i><br>
+- <i>Added information on the "Script-SearchBar.js"file in the GitHub Files And Descriptions section.</i><br>
+- <i>Added a "How do I search for Pokémon?" answer in The Help Section.</i>
+
+
+<br><br>
+<h1 align="center">Old Changes</h1>
+<h2 align="center">v4.1</h2>
 <b>Two file types (HTML and CSS) have had changes to them and require the same version (v4.1) of the files to cooperate properly.</b><br>
 <b>A new alternative tracker, the Minimalist Edition, has been introduced thanks to help from Rookie Roo and Isla de Monte Cristo!</b>
 <h4>Everything:</h4>
@@ -30,10 +49,8 @@
 - <i>Removed the Miscellaneous Q&A section.</i></p>
 
 
-<br><br><br>
-<h1 align="center">Old Changes</h1>
-<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b>
 <h2 align="center">v4.0</h2>
+<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b>
 <h4>Everything:</h4>
 <b>On December 31, 2024 old icons that are hosted on Imgur will become inaccessible so please update before then so your Tracker doesn't lose all image access.</b><br><br>
 - <i>Images are no longer using an Imgur link, they now are local like the other files which makes the page load much quicker.</i><br>
