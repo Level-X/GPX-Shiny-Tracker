@@ -1,3 +1,5 @@
+// By Cycloneblaze.
+
 function countProgress(generation) {
     //TODO: can I change this from a switch to a function that takes the class as argument, and deduplicate? 
     console.log("generation was", generation)
@@ -129,6 +131,20 @@ function mark(elem, generation, state = "own", count_now = true) {
     if ( count_now ) { countProgress(generation); }
 }
 
+function markThis(event){
+    clickState = localStorage.getItem("shiny ".concat(event.target.alt));
+    gen = event.target.parentElement.classList[1];
+    if (clickState !== null) {
+        mark(event.target, gen, "notown", true);
+        /* if there was any stored status, treat it as own. Then we want
+        to set the _opposite_ status, i.e. notown. */
+    } else {
+        mark(event.target, gen, "own", true);
+        /* if there was no stored status, the existing status is notown
+        (as the default), so we set to own. */
+    }
+}
+
 function markAll() {
     const elems = document.getElementById("mark").querySelectorAll('img:not([src="Images/Pokémon/0.png"])');
     /* an extra class on each img would be necessary if there were any img elements
@@ -142,20 +158,12 @@ function markAll() {
         generation and state) in an array, then give that array to Promise.all(). But
         performance does not seem to demand it at the minute. See:
         https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#combining_multiple_promises */
-        elems[i].addEventListener('click', function () {
-            clickState = localStorage.getItem("shiny ".concat(this.alt));
-            gen = this.parentElement.classList[1];
-            if (clickState !== null) {
-                mark(this, gen, "notown", true);
-                /* if there was any stored status, treat it as own. Then we want
-                to set the _opposite_ status, i.e. notown. */
-            } else {
-                mark(this, gen, "own", true);
-                /* if there was no stored status, the existing status is notown
-                (as the default), so we set to own. */
+        elems[i].addEventListener('click', (ev) => markThis(ev));
+        elems[i].addEventListener("keyup", function (ev) {
+            if (ev.key === "Enter") {  //checks whether the pressed key is "Enter"
+                markThis(ev);
             }
         });
-
         let prevState = localStorage.getItem("shiny ".concat(elems[i].alt));
         if (prevState !== null) {
             mark(elems[i], elems[i].parentElement.classList[1], "own", false);
