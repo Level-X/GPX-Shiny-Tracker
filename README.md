@@ -12,7 +12,7 @@
 
 # Changelog
 <h1 align="center">Current - v4.2</h1>
-<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.0) of the files to cooperate properly.</b><br>
+<b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.2) of the files to cooperate properly.</b><br>
 <h4>Everything:</h4>
 - <i>The size of the banner button in the Footer has been reduced.</i><br>
 - <i>The Navigation sections will now detect your screen size and shift it's appearance to fit it. Big thanks to Cycloneblaze!</i><br>
