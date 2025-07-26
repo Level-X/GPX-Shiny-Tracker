@@ -1,17 +1,30 @@
-# GPX+ Shiny Tracker [v4.2]
-<p align="center"><img src="https://i.imgur.com/uPHKuMi.png"></p>
+# GPX+ Shiny Tracker [v4.3]
+<p align="center"><img src="https://i.imgur.com/86fg7Ih.png"></p>
 
 
   
 # Downloads
-<p align="center">The latest version of the tracker (currently v4.2) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
+<p align="center">The latest version of the tracker (currently v4.3) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 <p align="center"><b>It is always recommended that you download the current, most up-to-date version.</b></p>
 
 
 
 # Changelog
-<h1 align="center">Current - v4.2</h1>
+<h1 align="center">Current - v4.3</h1>
+<h4>Everything:</h4>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Banners updated to v4.3</i><br>
+- <i>A few minor errors have been corrected.</i><br>
+- <i>Added icons for Galarian Weezing, Paldean Tauros [Combat Breed], Paldean Tauros [Blaze Breed], Paldean Tauros [Aqua Breed], Dialga [Origin], Palkia [Origin], Enamorus [Incarnate], Enamorus [Therian], Tandemaus, Maushold [Family of Three], Maushold [Family of Four], Smoliv, Dolliv, Arboliva, Nacli, Naclstack, Garganacl, Charcadet, Armarouge, Ceruledge, Tadbulb, Bellibolt, Shroodle, Grafaiai, Capsakid, Scovillain, Tinkatink, Tinkatuff, Tinkaton, Finizen, Palafin [Zero], Palafin [Hero], Varoom, Revavroom, Tatsugiri [Curly], Tatsugiri [Droopy], Tatsugiri [Stretchy], Annihilape, Farigiraf, Dudunsparce [Two-Segment], Dudunsparce [Three-Segment], Kingambit, Iron Treads, Iron Bundle, Iron Hands, Iron Jugulis, Iron Moth, Iron Thorns, Frigibax, Arctibax, Baxcalibur, Iron Valiant, Poltchageist, Sinistcha, Terapagos, Terapagos [Terastal], Terapagos [Stellar], Noodle Ekans, Noodle Arbok, Armored Mewtwo [V1998], Armored Mewtwo [V2019], and Revavroom [Starmobile].</i><br>
+<h4>Getting Started:</h4>
+- <i>Added v4.3 changes.</i>
+
+
+<br><br>
+<h1 align="center">Old Changes</h1>
+<h2 align="center">v4.2</h2>
 <b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.2) of the files to cooperate properly.</b><br>
 <h4>Everything:</h4>
 - <i>The size of the banner button in the Footer has been reduced.</i><br>
@@ -25,11 +38,9 @@
 <h4>Getting Started:</h4>
 - <i>Added v4.2 changes.</i><br>
 - <i>Added information on the "Script-SearchBar.js"file in the GitHub Files And Descriptions section.</i><br>
-- <i>Added a "How do I search for Pokémon?" answer in The Help Section.</i>
+- <i>Added a "How do I search for Pokémon?" answer in The Help Section.</i></p>
 
 
-<br><br>
-<h1 align="center">Old Changes</h1>
 <h2 align="center">v4.1</h2>
 <b>Two file types (HTML and CSS) have had changes to them and require the same version (v4.1) of the files to cooperate properly.</b><br>
 <b>A new alternative tracker, the Minimalist Edition, has been introduced thanks to help from Rookie Roo and Isla de Monte Cristo!</b>
