@@ -1,16 +1,28 @@
-# GPX+ Shiny Tracker [v4.3]
-<p align="center"><img src="https://i.imgur.com/86fg7Ih.png"></p>
+# GPX+ Shiny Tracker [v4.4]
+<p align="center"><img src="https://i.imgur.com/8lFWpy0.png"></p>
 
 
   
 # Downloads
-<p align="center">The latest version of the tracker (currently v4.3) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
+<p align="center">The latest version of the tracker (currently v4.4) will always be avaiable on the <a href="https://github.com/Level-X/GPX-Shiny-Tracker">main branch</a> or <a href="https://github.com/Level-X/GPX-Shiny-Tracker/archive/refs/heads/main.zip">direct download</a>.<br>
 [<b><i>Starting from v2.0 Javascript functions by <a href="https://github.com/Cycloneblaze">Cycloneblaze</a> are included.</i></b>]</p>
 <p align="center"><b>It is always recommended that you download the current, most up-to-date version.</b></p>
 
 
 
 # Changelog
+<h1 align="center">Current - v4.4</h1>
+<h4>Everything:</h4>
+- <i>Incremented version number.</i><br>
+<h4>Shiny Trackers:</h4>
+- <i>Banners updated to v4.4</i><br>
+- <i>Added icons for Hisuian Sneasel, Calyrex, Calyrex [Ice Rider], Calyrex [Shadow Rider], Sneasler, Klawf, Bombirdier, and Orthworm.</i><br>
+<h4>Getting Started:</h4>
+- <i>Added v4.4 changes.</i></p>
+
+
+<br><br>
+<h1 align="center">Old Changes</h1>
 <h1 align="center">Current - v4.3</h1>
 <h4>Everything:</h4>
 - <i>Incremented version number.</i><br>
@@ -19,11 +31,9 @@
 - <i>A few minor errors have been corrected.</i><br>
 - <i>Added icons for Galarian Weezing, Paldean Tauros [Combat Breed], Paldean Tauros [Blaze Breed], Paldean Tauros [Aqua Breed], Dialga [Origin], Palkia [Origin], Enamorus [Incarnate], Enamorus [Therian], Tandemaus, Maushold [Family of Three], Maushold [Family of Four], Smoliv, Dolliv, Arboliva, Nacli, Naclstack, Garganacl, Charcadet, Armarouge, Ceruledge, Tadbulb, Bellibolt, Shroodle, Grafaiai, Capsakid, Scovillain, Tinkatink, Tinkatuff, Tinkaton, Finizen, Palafin [Zero], Palafin [Hero], Varoom, Revavroom, Tatsugiri [Curly], Tatsugiri [Droopy], Tatsugiri [Stretchy], Annihilape, Farigiraf, Dudunsparce [Two-Segment], Dudunsparce [Three-Segment], Kingambit, Iron Treads, Iron Bundle, Iron Hands, Iron Jugulis, Iron Moth, Iron Thorns, Frigibax, Arctibax, Baxcalibur, Iron Valiant, Poltchageist, Sinistcha, Terapagos, Terapagos [Terastal], Terapagos [Stellar], Noodle Ekans, Noodle Arbok, Armored Mewtwo [V1998], Armored Mewtwo [V2019], and Revavroom [Starmobile].</i><br>
 <h4>Getting Started:</h4>
-- <i>Added v4.3 changes.</i>
+- <i>Added v4.3 changes.</i></p>
 
 
-<br><br>
-<h1 align="center">Old Changes</h1>
 <h2 align="center">v4.2</h2>
 <b>All file types (HTML, CSS, and JavaScript) have had changes to them and require the same version (v4.2) of the files to cooperate properly.</b><br>
 <h4>Everything:</h4>
